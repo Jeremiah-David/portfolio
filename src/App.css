@@ -1,0 +1,578 @@
+
+body {
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background: black;
+  animation: landingBack 5s;
+  -webkit-animation: landingBack  60s;
+  -moz-animation: landingBack ease 20s;
+  -o-animation: landingBack ease 20s;
+  -ms-animation: landingBack ease 20s;
+}
+
+
+
+
+
+
+.waterPic {
+  display:flex;
+  position: relative;
+  top: 50px;
+  right: 0px;
+  float: right;
+  max-width: 50%;
+  animation: fadeIn ease 30s;
+  -webkit-animation: fadeIn ease 30s;
+  -moz-animation: fadeIn ease 30s;
+  -o-animation: fadeIn ease 30s;
+  -ms-animation: fadeIn ease 30s;
+  }
+
+
+.hero {
+  /* height: 90 vh; */
+  position: relative;
+  /* top: 100px; */
+  max-width: 600;
+  max-width: 50%;
+  color: white;
+  font-size: xxx-large;
+  align-items: center;
+  animation: fadeIn ease 4s;
+  -webkit-animation: fadeIn ease 4s;
+
+}
+
+
+.title2 {
+  position: relative;
+  left: -1000px;
+  top: -75px;
+  /* top: 200px; */
+  max-width: 50%;
+
+  color: white;
+  font-size: xx-large;
+  align-items: center;
+  -webkit-animation: slide 2.5s forwards;
+  -webkit-animation-delay: 1s;
+  animation: slide 2.5s forwards;
+  animation-delay: 1s;
+  
+
+}
+
+  .skill1 {
+    color: white;
+    right: -800px;
+    top: -300px;
+    font-size: x-large;
+    max-width: 50%;
+    float: right;
+    position: relative;
+    animation: slideRight forwards 2s;
+    -webkit-animation: slideRight forwards 2s;
+    animation-delay: 1s;
+    -webkit-animation-delay: 1s;
+    animation-fill-mode: forwards
+  }
+
+  .skill2 {
+    color: white;
+    right: -800px;
+    top: -300px;
+    font-size: x-large;
+    max-width: 50%;
+    float: right;
+    position: relative;
+    animation: slideRight forwards 2s;
+    -webkit-animation: slideRight forwards 2s;
+    animation-delay: 1.5s;
+    -webkit-animation-delay: 1.5s;
+    animation-fill-mode: forwards
+  }
+
+  .skill3 {
+    color: white;
+    right: -800px;
+    top: -300px;
+    font-size: x-large;
+    max-width: 50%;
+    float: right;
+    position: relative;
+    animation: slideRight forwards 2s;
+    -webkit-animation: slideRight forwards 2s;
+    animation-delay: 2s;
+    -webkit-animation-delay: 2s;
+    animation-fill-mode: forwards
+  }
+
+  .skill4 {
+    animation: slideRight forwards 2s;
+    color: white;
+    right: -800px;
+    top: -300px;
+    font-size: x-large;
+    max-width: 50%;
+    float: right;
+    position: relative;
+    animation: slideRight forwards 2s;
+    -webkit-animation: slideRight forwards 2s;
+    animation-delay: 2.5s;
+    -webkit-animation-delay: 2.5s;
+    animation-fill-mode: forwards
+  }
+
+
+
+
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+  }
+
+
+.tag {
+  /* height:  vh; */
+  color: white;
+  right: 0;
+  font-size: xxx-large;
+  max-width: 50%;
+  float: right;
+  
+  position: relative;
+  animation: fadeInTag ease 10s;
+  -webkit-animation: fadeInTag ease 10s;
+  animation-delay: 3s;
+  -webkit-animation-delay: 3s;
+  animation-fill-mode: forwards
+}
+
+
+
+.stackTitle {
+  color: white;
+  font-size: large;
+  align-items: center;
+  animation: fadeIn ease 3s;
+  position: absolute;
+  -webkit-animation: fadeIn ease 3s;
+  max-width: 50%;
+  
+}
+
+
+.tagStack {
+  display: flex;
+  height: 90 vh;
+  position: absolute;
+  color: white;
+  font-size: xxx-large;
+  bottom: 40%;
+  right: 0px;
+  float: right;
+  justify-content: flex-end;
+  animation: fadeInTag ease 10s;
+  -webkit-animation: fadeInTag ease 10s;
+  animation-delay: 1.5s;
+  -webkit-animation-delay: 1.5s;
+  opacity: 0;
+  animation-fill-mode: forwards
+  
+}
+
+
+.stackList {
+  position: relative ;
+  left: -300px;
+  top: 75px;
+  max-width: 500%;
+  color: white;
+  font-size: 40px;
+  align-items: center;
+  -webkit-animation: slide 2.5s forwards;
+  -webkit-animation-delay: 1s;
+  animation: slide 2.5s forwards;
+  animation-delay: 1s;
+  }
+
+@keyframes fadeInTag {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+
+/* Substacks and anmimation */
+
+.mongoose {
+  position: relative;
+  right: -2000px;
+  color: white;
+  -webkit-animation: slideRight 2s forwards;
+  -webkit-animation-delay: 2s;
+  animation: slideRight 2s forwards;
+  animation-delay: 2s;
+  padding: 5px;
+
+}
+
+.atlas {
+  position: relative;
+  right: -2000px;
+  color: white;
+  -webkit-animation: bottomStack 4s forwards;
+  -webkit-animation-delay: 2s;
+  animation: bottomStack 4s forwards;
+  animation-delay: 2s;
+  
+}
+
+.postgre {
+  position: relative;
+  right: -2000px;
+  color: white;
+  -webkit-animation: bottomStack 4s forwards;
+  -webkit-animation-delay: 2s;
+  animation: bottomStack 4s forwards;
+  animation-delay: 2s;
+}
+
+.sequelize {
+  position: relative;
+  right: -2000px;
+  color: white;
+  -webkit-animation: slideRight 4s forwards;
+  -webkit-animation-delay: 2s;
+  animation: slideRight 4s forwards;
+  animation-delay: 2s;
+}
+
+.flask {
+  position: relative;
+  top: -1000px;
+  color: white;
+  -webkit-animation: topStack 7s forwards;
+  -webkit-animation-delay: 2s;
+  animation: topStack 7s forwards;
+  animation-delay: 2s;
+}
+
+.redux {
+  position: relative;
+  bottom: -1000px;
+  color: white;
+  -webkit-animation: topStack 4s forwards;
+  -webkit-animation-delay: 1s;
+  animation: topStack 4s forwards;
+  animation-delay: 1s;
+}
+
+.socket {
+  position: relative;
+  right: -2000px;
+  color: white;
+  -webkit-animation: bottomStack 4.5s forwards;
+  -webkit-animation-delay: 2s;
+  animation: bottomStack 4.5s forwards;
+  animation-delay: 2s;
+}
+
+.next {
+  position: relative;
+  right: -2000px;
+  color: white;
+  -webkit-animation: slideRight 5s forwards;
+  -webkit-animation-delay: 2s;
+  animation: slideRight 5s forwards;
+  animation-delay: 2s;
+}
+
+.bootstrap {
+  position: relative;
+  right: -2000px;
+  color: white;
+  -webkit-animation: bottomStack 6s forwards;
+  -webkit-animation-delay: 2s;
+  animation: bottomStack 6s forwards;
+  animation-delay: 2s;
+}
+
+
+.rest {
+  position: relative;
+  right: -2000px;
+  color: white;
+  -webkit-animation: slideRight 6.5s forwards;
+  -webkit-animation-delay: 2s;
+  animation: slideRight 6.5s forwards;
+  animation-delay: 2s;
+}
+
+.reactive {
+  position: relative;
+  right: -2000px;
+  color: white;
+  -webkit-animation: slideRight 6s forwards;
+  -webkit-animation-delay: 2s;
+  animation: slideRight 6s forwards;
+  animation-delay: 2s;
+}
+
+
+@keyframes bottomStack {
+  0%   {right: -2000px; bottom:-2000px;}
+
+  50%  {left:200px; bottom:0px;}
+
+  100% {left:0px; bottom:0px;}
+}
+
+
+@keyframes topStack {
+  0%   { right: -2000px; top:-2000px;}
+
+  50%  {left:200px; top:0px;}
+
+  100% {left:0px; top:0px;}
+}
+
+
+
+
+.dadPic {
+  position: absolute;
+  left: -600px;
+  max-width: 50%;
+  -webkit-animation: slide 0.5s forwards;
+  -webkit-animation-delay: 2s;
+  animation: slide 0.5s forwards;
+  animation-delay: 2s;
+  
+}
+
+.aboutTitle {
+  color: white;
+  font-size: xx-large;
+  align-items: center;
+  animation: fadeIn ease 3s;
+  position: relative;
+  -webkit-animation: fadeIn ease 3s;
+  max-width: 50%;
+
+}
+
+
+.familyPic {
+  position: relative;
+  left: -600px;
+  max-width: 50%;
+  -webkit-animation: slide 0.5s forwards;
+  -webkit-animation-delay: 1s;
+  animation: slide 0.5s forwards;
+  animation-delay: 1s;
+  
+}
+
+
+@-webkit-keyframes slide {
+  100% { left: 0; }
+}
+
+@keyframes slide {
+  100% { left: 0; }
+}
+
+@-webkit-keyframes slideRight {
+  100% { right: 5px; }
+}
+
+@keyframes slideRight {
+  100% { right: 5px; }
+}
+
+
+  @keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+  }
+  
+  @-moz-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+  }
+  
+  @-webkit-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+  }
+  
+  @-o-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+  }
+  
+  @-ms-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+  }
+
+
+  @-webkit-keyframes we {
+    100% { right: 0; }
+  }
+  
+  @keyframes we {
+    100% { right: 0; }
+  }
+
+    .sns-btn {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    /* padding: 0px, 50px, 0px, 50px; */
+    margin-left: 100px;
+    border: none;
+    transition-duration: .5s;
+    transform: rotateX(45deg);
+    box-shadow: 0px 10px 5px rgba(0, 0, 0, .3);
+    cursor: pointer;
+  }
+
+    .sns-btn:hover {
+      transform: scale(1.8);
+      box-shadow: none;
+    }
+    .sns-btn.__icon {
+      font-size: 33px;
+      letter-spacing: 0.1em;
+      color: #fff;
+    }
+  
+
+    .Nav {
+      display: flex;
+      justify-content: center;
+      
+    }
+
+    ul {
+      list-style-type:none;
+    }
+
+
+
+
+  .weAre {
+    color:white;
+    font-size: x-large;
+    position: absolute;
+    top: 200px;
+    right: -500px;
+    -webkit-animation: we 0.5s W;
+    -webkit-animation-delay: 2s;
+    animation: we 0.5s forwards;
+    animation-delay: 2s;
+  }
+
+  .dreamer {
+    color: white;
+    position: absolute;
+    font-size: x-large;
+    right: -500px;
+    top: 300px;
+    -webkit-animation: we 0.5s W;
+    -webkit-animation-delay: 4s;
+    animation: we 0.5s forwards;
+    animation-delay: 4s;
+  }
+
+/*    Projects   */
+
+
+.kombat {
+  position: relative;
+  background-color: darkgray;
+  left: -800px;
+  /* top: 200px; */
+  color: white;
+  /* font-size: large; */
+  align-items: center;
+  -webkit-animation: slide 4.5s forwards;
+  -webkit-animation-delay: 1s;
+  animation: slide 4.5s forwards;
+  animation-delay: 1s;
+  border-radius: 5%;
+  padding: 5px;
+  margin: 5px;
+  }
+
+.fortnite {
+  position: relative;
+  background-color: darkgray;
+  right: -2000px;
+  /* top: 200px; */
+  color: white;
+  /* font-size: large; */
+  align-items: center;
+  -webkit-animation: fortnite 4s forwards;
+  -webkit-animation-delay: 1s;
+  animation: fortnite 4s forwards;
+  animation-delay: 1s;
+  border-radius: 5%;
+  padding: 10px
+}
+
+@keyframes fortnite {
+  0%   {background-color:white; right: -2000px; top:-2000px;}
+  /* 25%  {background-color:white; left:200px; top:-200px;} */
+  50%  {background-color: black; left:200px; top:0px;}
+  /* 75%  {background-color: black; left:0px; top:200px;} */
+  100% {background-color: #333; left:0px; top:0px;}
+}
+
+.project3 {
+  position: relative;
+  background-color: darkgray;
+  right: -1500px;
+  /* top: 200px; */
+  color: white;
+  /* font-size: large; */
+  align-items: center;
+  -webkit-animation: we 4.5s forwards;
+  -webkit-animation-delay: 1s;
+  animation: we 4.5s forwards;
+  animation-delay: 1s;
+  border-radius: 5%;
+  padding: 5px;
+  margin: 5px;
+  }
+  .project4 {
+    position: relative;
+    background-color: darkgray;
+    right: -2000px;
+    /* top: 200px; */
+    color: white;
+    /* font-size: large; */
+    align-items: center;
+    -webkit-animation: bottom 4s forwards;
+    -webkit-animation-delay: 1s;
+    animation: bottom 4s forwards;
+    animation-delay: 1s;
+    border-radius: 5%;
+    padding: 10px
+  }
+
+  @keyframes bottom {
+    0%   {background-color:white; right: -2000px; bottom:-2000px;}
+  
+    50%  {background-color: black; left:200px; bottom:0px;}
+
+    100% {background-color: #333; left:0px; bottom:0px;}
+  }
+
