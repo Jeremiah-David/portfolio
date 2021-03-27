@@ -104,8 +104,8 @@ body {
     position: relative;
     animation: slideRight forwards 2s;
     -webkit-animation: slideRight forwards 2s;
-    animation-delay: 2s;
-    -webkit-animation-delay: 2s;
+    animation-delay: 2.5s;
+    -webkit-animation-delay: 2.5s;
     animation-fill-mode: forwards
   }
 
@@ -120,8 +120,8 @@ body {
     position: relative;
     animation: slideRight forwards 2s;
     -webkit-animation: slideRight forwards 2s;
-    animation-delay: 2.5s;
-    -webkit-animation-delay: 2.5s;
+    animation-delay: 2s;
+    -webkit-animation-delay: 2s;
     animation-fill-mode: forwards
   }
 
@@ -186,7 +186,7 @@ body {
 
 .stackList {
   position: relative ;
-  left: -300px;
+  left: -500px;
   top: 75px;
   max-width: 500%;
   color: white;
@@ -321,6 +321,31 @@ body {
 }
 
 
+.topPipe {
+  position: relative;
+  top: -1000px;
+  /* left: 600px; */
+    color: white;
+  -webkit-animation: pipeStackTop 5s forwards;
+  -webkit-animation-delay: 3s;
+  animation: pipeStackTop 5s forwards;
+  animation-delay: 3s;
+}
+
+.bottomPipe {
+  position: relative;
+  /* bottom: -1000px; */
+  /* left: 600px; */
+    color: white;
+  -webkit-animation: pipeStackBottom 3s ease;
+  -webkit-animation-delay: 8.5s;
+  animation: pipeStackBottom 3s ease;
+  animation-delay: 8.5s;
+  opacity:0;
+  animation-fill-mode: forwards
+}
+
+
 @keyframes bottomStack {
   0%   {right: -2000px; bottom:-2000px;}
 
@@ -337,6 +362,20 @@ body {
 
   100% {left:0px; top:0px;}
 }
+
+@keyframes pipeStackTop {
+  0%   {top:-2000px;}
+
+  50%  { top:0px;}
+
+  100% {top:0px;}
+}
+
+@keyframes pipeStackBottom {
+  0% {opacity:0;}
+  100% {opacity:1;}
+  }
+
 
 
 

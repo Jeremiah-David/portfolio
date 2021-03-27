@@ -17,16 +17,16 @@ function Landing() {
             </div>
             <div className="landingTag" >
                 <div className="skill1">
-                    <p>| Problem Solving </p>
+                    <p><span className="topPipe" > |</span> Problem Solving </p>
                 </div>
                 <div className="skill2" >
-                    <p>| Teamwork |</p>
+                    <p><span className="topPipe" > |</span> Teamwork<span className="topPipe" > |</span></p>
                 </div>
                 <div className="skill4" >
-                    <p>| Critical Thinking |</p>
+                    <p><span className="topPipe" > |</span> Critical Thinking<span className="topPipe" > |</span></p>
                 </div>
                 <div className="skill3" >
-                    <p> Creativity |</p>
+                    <p> Creativity<span className="topPipe" > |</span></p>
                 </div>
             </div>
 
