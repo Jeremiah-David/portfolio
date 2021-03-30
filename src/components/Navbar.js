@@ -2,11 +2,19 @@ import { NavLink, Link, Router } from 'react-router-dom';
 
 
 
+
+
+
 const myNavbar = () => {
+
+
+
   return (
 
-    <div className="Nav">
 
+
+
+    <div className="Nav">
 
       <div className="sns-btn sns-btn--home">
         <NavLink  style={{ textDecoration: 'none', color: 'white'}} className="nav-link" to="/"> Home </NavLink>
@@ -33,5 +41,8 @@ const myNavbar = () => {
 
   )
 }
+
+
+
 
 export default myNavbar

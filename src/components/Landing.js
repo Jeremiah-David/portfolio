@@ -1,14 +1,11 @@
-import eugeneWater from '../eugenewater.jpg'
-import dad from '../Dad.jpg'
-import greenForest from '../greenForest.jpg'
-
 
 function Landing() {
+
+   
+
     return (
-        <div className="landing">
-            {/* <div className="waterPic">
-                <img src={greenForest} />
-            </div> */}
+        <div>
+          
             <div className='hero'>
                 <h1>Jeremiah David</h1>
             </div>
@@ -26,7 +23,17 @@ function Landing() {
                     <p><span className="topPipe" > |</span> Critical Thinking<span className="topPipe" > |</span></p>
                 </div>
                 <div className="skill3" >
-                    <p> Creative Design<span className="topPipe" > |</span></p>
+                    <p>  Creative Design<span className="topPipe" > |</span></p>
+                </div>
+
+                <div className="skill6" >
+                    <p>Data Structures <span className="topPipe" > |</span></p>
+                </div>
+                <div className="skill7" >
+                    <p><span className="topPipe" > | </span>Web API's<span className="topPipe" > |</span></p>
+                </div>
+                <div className="skill8" >
+                <p><span className="topPipe" > |</span> Innovative Solutions</p>
                 </div>
             </div>
 

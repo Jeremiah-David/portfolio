@@ -1,3 +1,5 @@
+
+
 import html5 from "../../html5.jpg"
 import css from "../../css.png"
 import JavaScript from "../../javascript.png"
@@ -12,8 +14,10 @@ import eugeneroads from '../../eugeneroads.jpg'
 
 
 function Stacks() {
+   
+
     return (
-        <>
+        <div>
             <div className="waterPic">
                 <img src={eugeneroads} />
             </div>
@@ -30,8 +34,8 @@ function Stacks() {
 
                     <li>
                         <img src={css} />CSS  <span className="bottomPipe" > | </span>
-                        <span className="bootstrap" > Bootstrap </span> <span className="bottomPipe" > | </span>
-                        <span className="reactive" > Reactive Web Design </span>
+                        <span className="bootstrap" > Bootstrap </span><span className="bottomPipe" > | </span>
+                        <span className="socket" > Reactive Web Design </span>
                         </li>
                     <li>
                         <img src={JavaScript} />JavaScript<span className="bottomPipe" > | </span>
@@ -39,15 +43,14 @@ function Stacks() {
                         </li>
                     <li>
                         <img src={express} />Express <span className="bottomPipe" >|</span>
-                        <span className="ejs" > EJS </span> <span className="bottomPipe" > | </span>
-                        <span className="rest" > CRUD/RESTful routing </span>
+                        <span className="ejs" > EJS </span><span className="bottomPipe" > | </span><span className="rest" >  CRUD/RESTful Routing </span>
                         
                     </li>
                     <li>
                         <img src={react} />React <span className="bottomPipe" > | </span>
                         <span className="redux" > Redux </span> <span className="bottomPipe" >|</span>
-                        <span className="socket" > Socket.io </span> <span className="bottomPipe" > | </span>
-                        <span className="next" > Next.js </span>
+                        <span className="socket" > Socket.io </span> <span className="bottomPipe" >|</span>
+                        <span className="socket" > Next.JS </span>
                         
                     </li>
                     <li>
@@ -57,12 +60,12 @@ function Stacks() {
                     <li>
                         <img src={sql} />SQL <span className="bottomPipe" >|</span>
                         <span className="postgre" > PostgreSQL </span><span className="bottomPipe" >|</span>
-                        <span className="sequelize" > Sequelize </span>
+                        <span className="socket" > Sequelize </span> 
 
                     </li>
                     <li>
                         <img src={mongo} />MongoDB <span className="bottomPipe" >|</span>
-                        <span className="mongoose" > Mongoose </span><span className="bottomPipe" > | </span><span className="atlas"> mongoDB Atlas</span>
+                        <span className="socket" > Mongoose </span> <span className="bottomPipe" > | </span><span className="atlas"> mongoDB Atlas</span>
                     </li>
                 </ul>
             </div>
@@ -79,7 +82,7 @@ function Stacks() {
             {/* </div> */}
             {/* </div> */}
 
-        </>
+        </div>
 
     )
 }

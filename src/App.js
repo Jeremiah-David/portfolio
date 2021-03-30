@@ -6,7 +6,7 @@ import Stacks from './components/sections/Stacks'
 import Landing from './components/Landing'
 import Projects from './components/sections/Projects'
 import About from './components/sections/About'
-import myFooter from './components/Footer'
+
 
 
 

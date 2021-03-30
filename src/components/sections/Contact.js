@@ -15,11 +15,3 @@ export default ContactMe
 
 
 
-{/* "Contact Info displayed as a section or separate page
-Included as a section on a single page, or on another page altogether."
-"Email
-Include email address (consider not linking to an email client)"
-"LinkedIn
-Link to LinkedIn that opens in a new tab"
-"GitHub
-Link to GitHub that opens in a new tab" */}

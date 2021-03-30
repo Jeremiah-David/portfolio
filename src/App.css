@@ -115,7 +115,7 @@ body {
   .skill3 {
     background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);   -webkit-background-clip: text;
     color: transparent;
-    right: -800px;
+    right: -1400px;
     top: -300px;
     font-size: x-large;
     max-width: 50%;
@@ -131,7 +131,7 @@ body {
   .skill4 {
     animation: slideRight forwards 2s;
     color: white;
-    right: -800px;
+    right: -1400px;
     top: -300px;
     font-size: x-large;
     max-width: 50%;
@@ -143,6 +143,73 @@ body {
     -webkit-animation-delay: 2s;
     animation-fill-mode: forwards
   }
+
+
+  .skill5 {
+    color: white;
+    left: -1400px;
+    top: 300px;
+    font-size: x-large;
+    max-width: 50%;
+    float: left;
+    position: relative;
+    animation: slide forwards 2s;
+    -webkit-animation: slide forwards 2s;
+    animation-delay: 1s;
+    -webkit-animation-delay: 1s;
+    animation-fill-mode: forwards
+  }
+
+  .skill6 {
+    color: white;
+    left: -1400px;
+    top: 300px;
+    font-size: x-large;
+    max-width: 50%;
+    float: left;
+    position: relative;
+    animation: slide forwards 2s;
+    -webkit-animation: slide forwards 2s;
+    animation-delay: 1.5s;
+    -webkit-animation-delay: 1.5s;
+    animation-fill-mode: forwards
+  }
+
+  .skill8 {
+    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);   -webkit-background-clip: text;
+    color: transparent;
+    left: -1400px;
+    top: 300px;
+    font-size: x-large;
+    max-width: 50%;
+    float: left;
+    position: relative;
+    animation: slide forwards 2s;
+    -webkit-animation: slide forwards 2s;
+    animation-delay: 2.5s;
+    -webkit-animation-delay: 2.5s;
+    animation-fill-mode: forwards
+  }
+
+  .skill7 {
+    animation: slideRight forwards 2s;
+    color: white;
+    left: -1400px;
+    top: 300px;
+    font-size: x-large;
+    max-width: 50%;
+    float: left;
+    position: relative;
+    animation: slide forwards 2s;
+    -webkit-animation: slide forwards 2s;
+    animation-delay: 2s;
+    -webkit-animation-delay: 2s;
+    animation-fill-mode: forwards
+  }
+
+
+  
+
 
 
 
@@ -742,4 +809,16 @@ body {
   @keyframes contactBottom {
     0%   {Bottom:-1600px;}
     100% {Bottom:0px;}
+  }
+
+
+  .hidden {
+    position: absolute;
+    animation: unLoad forwards 2s;
+    -webkit-animation: unLoad forwards 2s;
+  }
+
+  @keyframes unLoad {
+    0%   {left: 0px ;}
+    100% {left: -2000px ;}
   }
