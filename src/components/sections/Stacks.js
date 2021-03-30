@@ -30,23 +30,23 @@ function Stacks() {
 
                     <li>
                         <img src={css} />CSS  <span className="bottomPipe" > | </span>
-                        <span className="bootstrap" >Bootstrap</span><span className="bottomPipe" > | </span>
-                        <span className="reactive" >Reactive Web Design</span>
+                        <span className="bootstrap" > Bootstrap </span> <span className="bottomPipe" > | </span>
+                        <span className="reactive" > Reactive Web Design </span>
                         </li>
                     <li>
                         <img src={JavaScript} />JavaScript<span className="bottomPipe" > | </span>
                         <span className="es6" >ES6</span>
                         </li>
                     <li>
-                        <img src={express} />Express<span className="bottomPipe" >|</span>
-                        <span className="ejs" > EJS </span><span className="bottomPipe" > |</span>
+                        <img src={express} />Express <span className="bottomPipe" >|</span>
+                        <span className="ejs" > EJS </span> <span className="bottomPipe" > | </span>
                         <span className="rest" > CRUD/RESTful routing </span>
                         
                     </li>
                     <li>
                         <img src={react} />React <span className="bottomPipe" > | </span>
-                        <span className="redux" > Redux </span><span className="bottomPipe" >|</span>
-                        <span className="socket" > Socket.io </span><span className="bottomPipe" >|</span>
+                        <span className="redux" > Redux </span> <span className="bottomPipe" >|</span>
+                        <span className="socket" > Socket.io </span> <span className="bottomPipe" > | </span>
                         <span className="next" > Next.js </span>
                         
                     </li>
@@ -62,7 +62,7 @@ function Stacks() {
                     </li>
                     <li>
                         <img src={mongo} />MongoDB <span className="bottomPipe" >|</span>
-                        <span className="mongoose" > Mongoose <span className="bottomPipe" >|</span></span><span className="atlas"> mongoDB Atlas</span>
+                        <span className="mongoose" > Mongoose </span><span className="bottomPipe" > | </span><span className="atlas"> mongoDB Atlas</span>
                     </li>
                 </ul>
             </div>

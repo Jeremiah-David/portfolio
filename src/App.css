@@ -25,10 +25,27 @@ body {
   max-width: 50%;
   animation: fadeIn ease 30s;
   -webkit-animation: fadeIn ease 30s;
-  -moz-animation: fadeIn ease 30s;
+  -moz-animation: fadeIn ease 30s; 
   -o-animation: fadeIn ease 30s;
   -ms-animation: fadeIn ease 30s;
+  
   }
+
+  .projectPicDiv {
+    display:block;
+    position: relative;
+    top: 50px;
+    right: 0px;
+    float: right;
+    max-width: 50%;
+    animation: fadeIn ease 30s;
+    -webkit-animation: fadeIn ease 30s;
+    -moz-animation: fadeIn ease 30s;
+    -o-animation: fadeIn ease 30s;
+    -ms-animation: fadeIn ease 30s;
+    }
+  
+
 
 
 .hero {
@@ -42,6 +59,7 @@ body {
   align-items: center;
   animation: fadeIn ease 4s;
   -webkit-animation: fadeIn ease 4s;
+  align-items: center;
 
 }
 
@@ -95,7 +113,8 @@ body {
   }
 
   .skill3 {
-    color: white;
+    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);   -webkit-background-clip: text;
+    color: transparent;
     right: -800px;
     top: -300px;
     font-size: x-large;
@@ -186,12 +205,12 @@ body {
 
 .stackList {
   position: relative ;
-  left: -500px;
+  left: -300px;
   top: 75px;
-  max-width: 500%;
+  /* max-width: 500%; */
   color: white;
-  font-size: 40px;
-  align-items: center;
+  font-size: 25px;
+  /* align-items: center; */
   -webkit-animation: slide 2.5s forwards;
   -webkit-animation-delay: 1s;
   animation: slide 2.5s forwards;
@@ -231,7 +250,7 @@ body {
 
 .postgre {
   position: relative;
-  right: -2000px;
+  right: -2400px;
   color: white;
   -webkit-animation: bottomStack 4s forwards;
   -webkit-animation-delay: 2s;
@@ -251,7 +270,7 @@ body {
 
 .flask {
   position: relative;
-  top: -1000px;
+  top: -2000px;
   color: white;
   -webkit-animation: topStack 7s forwards;
   -webkit-animation-delay: 2s;
@@ -261,7 +280,7 @@ body {
 
 .redux {
   position: relative;
-  bottom: -1000px;
+  bottom: -2000px;
   color: white;
   -webkit-animation: topStack 4s forwards;
   -webkit-animation-delay: 1s;
@@ -291,7 +310,7 @@ body {
 
 .bootstrap {
   position: relative;
-  right: -2000px;
+  right: -2400px;
   color: white;
   -webkit-animation: bottomStack 6s forwards;
   -webkit-animation-delay: 2s;
@@ -459,11 +478,11 @@ body {
 
 
   @-webkit-keyframes we {
-    100% { right: 0; }
+    100% { right: 10px; }
   }
   
   @keyframes we {
-    100% { right: 0; }
+    100% { right: 10px; }
   }
 
     .sns-btn {
@@ -504,6 +523,11 @@ body {
       list-style-type:none;
     }
 
+    .footer {
+      color: white;
+      display: block;
+    }
+
 
 
 
@@ -521,14 +545,31 @@ body {
 
   .dreamer {
     color: white;
+    float: right;
     position: absolute;
     font-size: x-large;
-    right: -500px;
-    top: 300px;
+    right: -600px;
+    top: 540px;
     -webkit-animation: we 0.5s W;
     -webkit-animation-delay: 4s;
     animation: we 0.5s forwards;
     animation-delay: 4s;
+  }
+
+
+  .aboutText {
+    color: white;
+    position: absolute;
+    text-align:justify;
+    font-size: xx-large;
+    text-indent: 30pt;
+    right: -600px;
+    top: 300px;
+    -webkit-animation: we 0.5s W;
+    -webkit-animation-delay: 3s;
+    animation: we 0.5s forwards;
+    animation-delay: 3s;
+    max-width: 30%;
   }
 
 /*    Projects   */
@@ -615,3 +656,90 @@ body {
     100% {background-color: #333; left:0px; bottom:0px;}
   }
 
+
+  .projectText {
+    color: white;
+    
+  }
+
+
+
+  .contact {
+    color: white;
+    /* position: absolute; */
+    text-align:center;
+    font-size: xx-large;
+    /* text-indent: 30pt; */
+
+    /* -webkit-animation: we 0.5s W;
+    -webkit-animation-delay: 3s;
+    animation: we 0.5s forwards;
+    animation-delay: 3s;
+    max-width: 30%; */
+    /* align-content: center; */
+  }
+
+
+  .contactName {
+    position: relative;
+    top: -1000px;
+    -webkit-animation: contactTop 2s W;
+    -webkit-animation-delay: 1s;
+    animation: contactTop 2s forwards;
+    animation-delay: 1s;
+  }
+
+  @keyframes contactTop {
+    0%   {top:-1000px;}
+    100% {top:0px;}
+  }
+
+  .contactNumber {
+    position: relative;
+    left: -1600px;
+    -webkit-animation: contactLeft 2s W;
+    -webkit-animation-delay: 1s;
+    animation: contactLeft 2s forwards;
+    animation-delay: 1s;
+  }
+  @keyframes contactLeft {
+    0%   {left:-1000px;}
+    100% {left :0px;}
+  }
+  .contactEmail {
+    position: relative;
+    right: -1600px;
+    -webkit-animation: contactRight 2s W;
+    -webkit-animation-delay: 1s;
+    animation: contactRight 2s forwards;
+    animation-delay: 1s;
+  }
+
+  @keyframes contactRight {
+    0%   {Right:-1000px;}
+    100% {Right :0px;}
+  }
+
+  .contactLinkin {
+    position: relative;
+    left: -1600px;
+    -webkit-animation: contactLeft 2s W;
+    -webkit-animation-delay: 1s;
+    animation: contactLeft 02s forwards;
+    animation-delay: 1s;
+  }
+
+
+  .contactHub {
+    position: relative;
+    bottom: -1600px;
+    -webkit-animation: contactBottom 2s W;
+    -webkit-animation-delay: 1s;
+    animation: contactBottom 2s forwards;
+    animation-delay: 1s;
+  }
+
+  @keyframes contactBottom {
+    0%   {Bottom:-1600px;}
+    100% {Bottom:0px;}
+  }

@@ -16,6 +16,9 @@ function About() {
             <div className="weAre" >
                 <h1>We are Family</h1>
             </div>
+            <div className="aboutText" >
+                <p> I'm a Front-End Developer Eugene, OR. I have serious passion for React, Javascript, and creating new ways to experience the web. Let's code something amazing. </p>
+            </div>
             <div className="dreamer">
                 <h1>We are the Dreamers</h1>
             </div>

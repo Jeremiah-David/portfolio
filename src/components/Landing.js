@@ -26,7 +26,7 @@ function Landing() {
                     <p><span className="topPipe" > |</span> Critical Thinking<span className="topPipe" > |</span></p>
                 </div>
                 <div className="skill3" >
-                    <p> Creativity<span className="topPipe" > |</span></p>
+                    <p> Creative Design<span className="topPipe" > |</span></p>
                 </div>
             </div>
 

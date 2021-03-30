@@ -17,9 +17,13 @@ const myNavbar = () => {
       <div className="sns-btn sns-btn--projects">
         <NavLink  style={{ textDecoration: 'none', color: 'white'}} className="nav-link" to="/projects"> Projects </NavLink>
       </div>
+      <div className="sns-btn sns-btn--contact">
+        <NavLink  style={{ textDecoration: 'none', color: 'white'}} className="nav-link" to="/contact">Contact Me</NavLink>
+      </div>
       <div className="sns-btn sns-btn--about">
         <NavLink  style={{ textDecoration: 'none', color: 'white'}} className="nav-link" to="/about">Meet Jeremiah</NavLink>
       </div>
+
       
 
 
