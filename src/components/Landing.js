@@ -27,13 +27,13 @@ function Landing() {
                 </div>
 
                 <div className="skill6" >
-                    <p>Data Structures <span className="topPipe" > |</span></p>
+                    <p>Data Structures <span className="landingBottomPipe" > |</span></p>
                 </div>
                 <div className="skill7" >
-                    <p><span className="topPipe" > | </span>Web API's<span className="topPipe" > |</span></p>
+                    <p><span className="landingBottomPipe" > | </span>Web API's<span className="landingBottomPipe" > |</span></p>
                 </div>
                 <div className="skill8" >
-                <p><span className="topPipe" > |</span> Innovative Solutions</p>
+                <p><span className="landingBottomPipe" > |</span> Innovative Solutions</p>
                 </div>
             </div>
 

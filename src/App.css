@@ -113,7 +113,8 @@ body {
   }
 
   .skill3 {
-    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);   -webkit-background-clip: text;
+    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);   
+    -webkit-background-clip: text;
     color: transparent;
     right: -1400px;
     top: -300px;
@@ -150,7 +151,7 @@ body {
     left: -1400px;
     top: 300px;
     font-size: x-large;
-    max-width: 50%;
+    /* max-width: 50%; */
     float: left;
     position: relative;
     animation: slide forwards 2s;
@@ -165,7 +166,7 @@ body {
     left: -1400px;
     top: 300px;
     font-size: x-large;
-    max-width: 50%;
+    /* max-width: 50%; */
     float: left;
     position: relative;
     animation: slide forwards 2s;
@@ -181,7 +182,7 @@ body {
     left: -1400px;
     top: 300px;
     font-size: x-large;
-    max-width: 50%;
+    /* max-width: 50%; */
     float: left;
     position: relative;
     animation: slide forwards 2s;
@@ -379,9 +380,9 @@ body {
   position: relative;
   right: -2400px;
   color: white;
-  -webkit-animation: bottomStack 6s forwards;
+  -webkit-animation: bottomStack 6.5s forwards;
   -webkit-animation-delay: 2s;
-  animation: bottomStack 6s forwards;
+  animation: bottomStack 6.5s forwards;
   animation-delay: 2s;
 }
 
@@ -398,31 +399,48 @@ body {
 
 .reactive {
   position: relative;
-  right: -2000px;
+  right: -2400px;
   color: white;
-  -webkit-animation: slideRight 6s forwards;
+  -webkit-animation: topStack 6s forwards;
   -webkit-animation-delay: 2s;
-  animation: slideRight 6s forwards;
+  animation: topStack 6s forwards;
   animation-delay: 2s;
 }
 
 
 .topPipe {
+  background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);   
+  -webkit-background-clip: text;
+  color: transparent;
   position: relative;
   top: -1000px;
   /* left: 600px; */
-    color: white;
+  
   -webkit-animation: pipeStackTop 5s forwards;
   -webkit-animation-delay: 3s;
   animation: pipeStackTop 5s forwards;
   animation-delay: 3s;
 }
 
-.bottomPipe {
+.landingBottomPipe {
+  background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);   
+  -webkit-background-clip: text;
+  color: transparent;
   position: relative;
-  /* bottom: -1000px; */
+  bottom: -1000px;
   /* left: 600px; */
-    color: white;
+  
+  -webkit-animation: pipeLandingBottom 5s forwards;
+  -webkit-animation-delay: 3s;
+  animation: pipeLandingBottom 5s forwards;
+  animation-delay: 3s;
+}
+
+.bottomPipe {
+  background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);   
+  -webkit-background-clip: text;
+    color: transparent;
+  position: relative;
   -webkit-animation: pipeStackBottom 3s ease;
   -webkit-animation-delay: 8.5s;
   animation: pipeStackBottom 3s ease;
@@ -451,10 +469,12 @@ body {
 
 @keyframes pipeStackTop {
   0%   {top:-2000px;}
-
-  50%  { top:0px;}
-
   100% {top:0px;}
+}
+
+@keyframes pipeLandingBottom {
+  0%   {bottom:-2000px;}
+  100% {bottom:0px;}
 }
 
 @keyframes pipeStackBottom {
@@ -732,7 +752,7 @@ body {
 
 
   .contact {
-    color: white;
+    /* color: white; */
     /* position: absolute; */
     text-align:center;
     font-size: xx-large;
@@ -748,6 +768,7 @@ body {
 
 
   .contactName {
+    color: white;
     position: relative;
     top: -1000px;
     -webkit-animation: contactTop 2s W;
@@ -762,6 +783,7 @@ body {
   }
 
   .contactNumber {
+    color: white;
     position: relative;
     left: -1600px;
     -webkit-animation: contactLeft 2s W;
@@ -774,6 +796,7 @@ body {
     100% {left :0px;}
   }
   .contactEmail {
+    color: white;
     position: relative;
     right: -1600px;
     -webkit-animation: contactRight 2s W;
@@ -788,6 +811,7 @@ body {
   }
 
   .contactLinkin {
+    color: white;
     position: relative;
     left: -1600px;
     -webkit-animation: contactLeft 2s W;
@@ -798,6 +822,7 @@ body {
 
 
   .contactHub {
+    color: white;
     position: relative;
     bottom: -1600px;
     -webkit-animation: contactBottom 2s W;
