@@ -1,15 +1,14 @@
 
 body {
-
   background-repeat: no-repeat;
   background-position: center;
-  background: black;
+  background: rgba(30, 30, 30, 1);
   animation: landingBack 5s;
   -webkit-animation: landingBack  60s;
   -moz-animation: landingBack ease 20s;
   -o-animation: landingBack ease 20s;
   -ms-animation: landingBack ease 20s;
-}
+  }
 
 
 
@@ -17,32 +16,31 @@ body {
 
 
 .waterPic {
-  display:flex;
   position: relative;
-  top: 50px;
+  top: 4 vh;
   right: 0px;
   float: right;
-  max-width: 50%;
+  max-width: 50vw;
   animation: fadeIn ease 30s;
   -webkit-animation: fadeIn ease 30s;
   -moz-animation: fadeIn ease 30s; 
   -o-animation: fadeIn ease 30s;
   -ms-animation: fadeIn ease 30s;
-  
   }
 
   .projectPicDiv {
     display:block;
     position: relative;
-    top: 50px;
+    top: 10vh;
     right: 0px;
     float: right;
-    max-width: 50%;
+    max-width: 50vw;
     animation: fadeIn ease 30s;
     -webkit-animation: fadeIn ease 30s;
     -moz-animation: fadeIn ease 30s;
     -o-animation: fadeIn ease 30s;
     -ms-animation: fadeIn ease 30s;
+    margin-right: 1vw;
     }
   
 
@@ -52,22 +50,22 @@ body {
   /* height: 90 vh; */
   position: relative;
   /* top: 100px; */
-  max-width: 600;
-  max-width: 50%;
-  color: white;
+  max-width: 50vw;
+    color: white;
   font-size: xxx-large;
   align-items: center;
   animation: fadeIn ease 4s;
   -webkit-animation: fadeIn ease 4s;
   align-items: center;
+  margin-left: 2vw;
 
 }
 
 
 .title2 {
   position: relative;
-  left: -1000px;
-  top: -75px;
+  left: -100vw;
+  top: -5vh;
   /* top: 200px; */
   max-width: 50%;
 
@@ -78,14 +76,15 @@ body {
   -webkit-animation-delay: 1s;
   animation: slide 2.5s forwards;
   animation-delay: 1s;
+  margin-left: 2vw;
   
 
 }
 
   .skill1 {
     color: white;
-    right: -800px;
-    top: -300px;
+    right: -150vw;
+    top: -30vh;
     font-size: x-large;
     max-width: 50%;
     float: right;
@@ -94,13 +93,15 @@ body {
     -webkit-animation: slideRight forwards 2s;
     animation-delay: 1s;
     -webkit-animation-delay: 1s;
+    margin-right: 2vw;
     animation-fill-mode: forwards
+    
   }
 
   .skill2 {
     color: white;
-    right: -800px;
-    top: -300px;
+    right: -150vw;
+    top: -30vh;
     font-size: x-large;
     max-width: 50%;
     float: right;
@@ -113,11 +114,11 @@ body {
   }
 
   .skill3 {
-    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);   
+    background-image: linear-gradient(to left, violet, rgb(137, 55, 195), rgb(80, 80, 156), green, yellow, orange, red);   
     -webkit-background-clip: text;
     color: transparent;
-    right: -1400px;
-    top: -300px;
+    right: -150vw;
+    top: -30vh;
     font-size: x-large;
     max-width: 50%;
     float: right;
@@ -132,8 +133,8 @@ body {
   .skill4 {
     animation: slideRight forwards 2s;
     color: white;
-    right: -1400px;
-    top: -300px;
+    right: -150vw;
+    top: -30vh;
     font-size: x-large;
     max-width: 50%;
     float: right;
@@ -142,31 +143,35 @@ body {
     -webkit-animation: slideRight forwards 2s;
     animation-delay: 2s;
     -webkit-animation-delay: 2s;
+   
     animation-fill-mode: forwards
   }
 
 
   .skill5 {
     color: white;
-    left: -1400px;
-    top: 300px;
+    left: -150vw;
+    top: 20vh;
     font-size: x-large;
+    display: inline;
     /* max-width: 50%; */
-    float: left;
+    /* float: left; */
     position: relative;
     animation: slide forwards 2s;
     -webkit-animation: slide forwards 2s;
     animation-delay: 1s;
     -webkit-animation-delay: 1s;
+    margin-left: 2vw;
     animation-fill-mode: forwards
   }
 
   .skill6 {
     color: white;
-    left: -1400px;
-    top: 300px;
+    left: -150vw;
+    top: 20vh;
     font-size: x-large;
-    /* max-width: 50%; */
+    display: inline;
+    margin-left: 2vw;
     float: left;
     position: relative;
     animation: slide forwards 2s;
@@ -177,14 +182,16 @@ body {
   }
 
   .skill8 {
-    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);   -webkit-background-clip: text;
+    background-image: linear-gradient(to left, violet, rgb(137, 55, 195), rgb(80, 80, 156), green, yellow, orange, red);   
+   -webkit-background-clip: text;
     color: transparent;
-    left: -1400px;
-    top: 300px;
+    left: -150vw;
+    top: 20vh;
     font-size: x-large;
-    /* max-width: 50%; */
+    
     float: left;
     position: relative;
+   
     animation: slide forwards 2s;
     -webkit-animation: slide forwards 2s;
     animation-delay: 2.5s;
@@ -195,10 +202,10 @@ body {
   .skill7 {
     animation: slideRight forwards 2s;
     color: white;
-    left: -1400px;
-    top: 300px;
+    left: -150vw;
+    top: 20vh;
     font-size: x-large;
-    max-width: 50%;
+    
     float: left;
     position: relative;
     animation: slide forwards 2s;
@@ -208,7 +215,14 @@ body {
     animation-fill-mode: forwards
   }
 
+  .construction {
+    position: absolute;
+    /* margin:0 auto; */
+    bottom: 0;
+    /* right: 0; */
+    color:white;
 
+  }
   
 
 
@@ -224,7 +238,8 @@ body {
 .tag {
   /* height:  vh; */
   color: white;
-  right: 0;
+  right: 0vw;
+  top: 0vh;
   font-size: xxx-large;
   max-width: 50%;
   float: right;
@@ -234,6 +249,7 @@ body {
   -webkit-animation: fadeInTag ease 10s;
   animation-delay: 3s;
   -webkit-animation-delay: 3s;
+  margin-right: 2vw;
   animation-fill-mode: forwards
 }
 
@@ -247,17 +263,18 @@ body {
   position: absolute;
   -webkit-animation: fadeIn ease 3s;
   max-width: 50%;
+  margin-left: 5vw;
   
 }
 
 
 .tagStack {
   display: flex;
-  height: 90 vh;
+  /* height: 90 vh; */
   position: absolute;
   color: white;
   font-size: xxx-large;
-  bottom: 40%;
+  top: 40vh;
   right: 0px;
   float: right;
   justify-content: flex-end;
@@ -266,23 +283,26 @@ body {
   animation-delay: 1.5s;
   -webkit-animation-delay: 1.5s;
   opacity: 0;
+  margin-right: 2vw;
   animation-fill-mode: forwards
+
   
 }
 
 
 .stackList {
   position: relative ;
-  left: -300px;
-  top: 75px;
+  left: -50vw;
+  top: 10vh;
   /* max-width: 500%; */
   color: white;
-  font-size: 25px;
+  font-size: xx-large;
   /* align-items: center; */
   -webkit-animation: slide 2.5s forwards;
   -webkit-animation-delay: 1s;
   animation: slide 2.5s forwards;
   animation-delay: 1s;
+  margin-left: 1vw;
   }
 
 @keyframes fadeInTag {
@@ -295,7 +315,7 @@ body {
 
 .mongoose {
   position: relative;
-  right: -2000px;
+  right: -200vw;
   color: white;
   -webkit-animation: slideRight 2s forwards;
   -webkit-animation-delay: 2s;
@@ -307,7 +327,7 @@ body {
 
 .atlas {
   position: relative;
-  right: -2000px;
+  right: -200vw;
   color: white;
   -webkit-animation: bottomStack 4s forwards;
   -webkit-animation-delay: 2s;
@@ -318,7 +338,7 @@ body {
 
 .postgre {
   position: relative;
-  right: -2400px;
+  right: -200vw;
   color: white;
   -webkit-animation: bottomStack 4s forwards;
   -webkit-animation-delay: 2s;
@@ -328,7 +348,7 @@ body {
 
 .sequelize {
   position: relative;
-  right: -2000px;
+  right: -200vw;
   color: white;
   -webkit-animation: slideRight 4s forwards;
   -webkit-animation-delay: 2s;
@@ -338,7 +358,7 @@ body {
 
 .flask {
   position: relative;
-  top: -2000px;
+  top: -200vh;
   color: white;
   -webkit-animation: topStack 7s forwards;
   -webkit-animation-delay: 2s;
@@ -348,7 +368,7 @@ body {
 
 .redux {
   position: relative;
-  bottom: -2000px;
+  bottom: -200vh;
   color: white;
   -webkit-animation: topStack 4s forwards;
   -webkit-animation-delay: 1s;
@@ -358,7 +378,7 @@ body {
 
 .socket {
   position: relative;
-  right: -2000px;
+  right: -200vw;
   color: white;
   -webkit-animation: bottomStack 4.5s forwards;
   -webkit-animation-delay: 2s;
@@ -368,7 +388,7 @@ body {
 
 .next {
   position: relative;
-  right: -2000px;
+  right: -400vw;
   color: white;
   -webkit-animation: slideRight 5s forwards;
   -webkit-animation-delay: 2s;
@@ -378,7 +398,7 @@ body {
 
 .bootstrap {
   position: relative;
-  right: -2400px;
+  right: -200vw;
   color: white;
   -webkit-animation: bottomStack 6.5s forwards;
   -webkit-animation-delay: 2s;
@@ -389,17 +409,17 @@ body {
 
 .rest {
   position: relative;
-  right: -2000px;
+  right: -400vw;
   color: white;
-  -webkit-animation: slideRight 6.5s forwards;
+  -webkit-animation: slideRight 5.5s forwards;
   -webkit-animation-delay: 2s;
-  animation: slideRight 6.5s forwards;
+  animation: slideRight 5.5s forwards;
   animation-delay: 2s;
 }
 
 .reactive {
   position: relative;
-  right: -2400px;
+  right: -200vw;
   color: white;
   -webkit-animation: topStack 6s forwards;
   -webkit-animation-delay: 2s;
@@ -413,12 +433,12 @@ body {
   -webkit-background-clip: text;
   color: transparent;
   position: relative;
-  top: -1000px;
+  top: -200vh;
   /* left: 600px; */
   
-  -webkit-animation: pipeStackTop 5s forwards;
+  -webkit-animation: pipeStackTop 2s forwards;
   -webkit-animation-delay: 3s;
-  animation: pipeStackTop 5s forwards;
+  animation: pipeStackTop 2s forwards;
   animation-delay: 3s;
 }
 
@@ -427,12 +447,12 @@ body {
   -webkit-background-clip: text;
   color: transparent;
   position: relative;
-  bottom: -1000px;
+  bottom: -200vh;
   /* left: 600px; */
   
-  -webkit-animation: pipeLandingBottom 5s forwards;
+  -webkit-animation: pipeLandingBottom 2s forwards;
   -webkit-animation-delay: 3s;
-  animation: pipeLandingBottom 5s forwards;
+  animation: pipeLandingBottom 2s forwards;
   animation-delay: 3s;
 }
 
@@ -441,17 +461,17 @@ body {
   -webkit-background-clip: text;
     color: transparent;
   position: relative;
-  -webkit-animation: pipeStackBottom 3s ease;
-  -webkit-animation-delay: 8.5s;
-  animation: pipeStackBottom 3s ease;
-  animation-delay: 8.5s;
+  -webkit-animation: pipeStackBottom 1s ease;
+  -webkit-animation-delay: 8.2s;
+  animation: pipeStackBottom 1s ease;
+  animation-delay: 8.2s;
   opacity:0;
   animation-fill-mode: forwards
 }
 
 
 @keyframes bottomStack {
-  0%   {right: -2000px; bottom:-2000px;}
+  0%   {right: -200vw; bottom:-2000px;}
 
   50%  {left:200px; bottom:0px;}
 
@@ -497,6 +517,104 @@ body {
   
 }
 
+
+
+@-webkit-keyframes slide {
+  100% { left: 0; }
+}
+
+@keyframes slide {
+  100% { left: 0; }
+}
+
+@-webkit-keyframes slideRight {
+  /* 0% { right: -200vw } */
+  100% { right: 5px; }
+}
+
+@keyframes slideRight {
+  /* 0% { right: -100vw} */
+  100% { right: 5px; }
+}
+
+
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+
+@-webkit-keyframes we {
+  100% { right: 0px; }
+}
+
+@keyframes we {
+  100% { right: 0px; }
+}
+
+.sns-btn {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  /* padding: 0px, 50px, 0px, 50px; */
+  margin-left: 100px;
+  border: none;
+  transition-duration: .5s;
+  transform: rotateX(45deg);
+  box-shadow: 0px 10px 5px rgba(0, 0, 0, .3);
+  cursor: pointer;
+}
+
+.sns-btn:hover {
+  transform: scale(1.8);
+  box-shadow: none;
+}
+.sns-btn.__icon {
+  font-size: 33px;
+  letter-spacing: 0.1em;
+  color: #fff;
+}
+
+
+.Nav {
+  display: flex;
+  justify-content: center;
+  
+}
+
+ul {
+  list-style-type:none;
+}
+
+.footer {
+  color: white;
+  display: block;
+}
+
 .aboutTitle {
   color: white;
   font-size: xx-large;
@@ -505,6 +623,7 @@ body {
   position: relative;
   -webkit-animation: fadeIn ease 3s;
   max-width: 50%;
+  margin-left: 2vw;
 
 }
 
@@ -517,104 +636,9 @@ body {
   -webkit-animation-delay: 1s;
   animation: slide 0.5s forwards;
   animation-delay: 1s;
+  margin-left: 1vw;
   
 }
-
-
-@-webkit-keyframes slide {
-  100% { left: 0; }
-}
-
-@keyframes slide {
-  100% { left: 0; }
-}
-
-@-webkit-keyframes slideRight {
-  100% { right: 5px; }
-}
-
-@keyframes slideRight {
-  100% { right: 5px; }
-}
-
-
-  @keyframes fadeIn {
-  0% {opacity:0;}
-  100% {opacity:1;}
-  }
-  
-  @-moz-keyframes fadeIn {
-  0% {opacity:0;}
-  100% {opacity:1;}
-  }
-  
-  @-webkit-keyframes fadeIn {
-  0% {opacity:0;}
-  100% {opacity:1;}
-  }
-  
-  @-o-keyframes fadeIn {
-  0% {opacity:0;}
-  100% {opacity:1;}
-  }
-  
-  @-ms-keyframes fadeIn {
-  0% {opacity:0;}
-  100% {opacity:1;}
-  }
-
-
-  @-webkit-keyframes we {
-    100% { right: 10px; }
-  }
-  
-  @keyframes we {
-    100% { right: 10px; }
-  }
-
-    .sns-btn {
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 70px;
-    width: 70px;
-    border-radius: 50%;
-    /* padding: 0px, 50px, 0px, 50px; */
-    margin-left: 100px;
-    border: none;
-    transition-duration: .5s;
-    transform: rotateX(45deg);
-    box-shadow: 0px 10px 5px rgba(0, 0, 0, .3);
-    cursor: pointer;
-  }
-
-    .sns-btn:hover {
-      transform: scale(1.8);
-      box-shadow: none;
-    }
-    .sns-btn.__icon {
-      font-size: 33px;
-      letter-spacing: 0.1em;
-      color: #fff;
-    }
-  
-
-    .Nav {
-      display: flex;
-      justify-content: center;
-      
-    }
-
-    ul {
-      list-style-type:none;
-    }
-
-    .footer {
-      color: white;
-      display: block;
-    }
-
 
 
 
@@ -622,12 +646,13 @@ body {
     color:white;
     font-size: x-large;
     position: absolute;
-    top: 200px;
-    right: -500px;
+    top: 20vh;
+    right: -250vw;
     -webkit-animation: we 0.5s W;
     -webkit-animation-delay: 2s;
     animation: we 0.5s forwards;
     animation-delay: 2s;
+    margin-right: 3vw;
   }
 
   .dreamer {
@@ -635,12 +660,13 @@ body {
     float: right;
     position: absolute;
     font-size: x-large;
-    right: -600px;
-    top: 540px;
+    right: -200vw;
+    top: 25vh;
     -webkit-animation: we 0.5s W;
     -webkit-animation-delay: 4s;
     animation: we 0.5s forwards;
     animation-delay: 4s;
+    margin-right: 3vw;
   }
 
 
@@ -650,13 +676,14 @@ body {
     text-align:justify;
     font-size: xx-large;
     text-indent: 30pt;
-    right: -600px;
-    top: 300px;
+    right: -200vw;
+    top: 35vh;
     -webkit-animation: we 0.5s W;
     -webkit-animation-delay: 3s;
     animation: we 0.5s forwards;
     animation-delay: 3s;
-    max-width: 30%;
+    max-width: 50vw;
+    margin-right: 3vw;
   }
 
 /*    Projects   */
@@ -664,27 +691,27 @@ body {
 
 .kombat {
   position: relative;
-  background-color: darkgray;
+  background-image: url('./kombat.png');
   left: -800px;
-  /* top: 200px; */
+  
   color: white;
-  /* font-size: large; */
+  width: 80%;
   align-items: center;
   -webkit-animation: slide 4.5s forwards;
   -webkit-animation-delay: 1s;
   animation: slide 4.5s forwards;
   animation-delay: 1s;
   border-radius: 5%;
-  padding: 5px;
-  margin: 5px;
+  padding: 10px
   }
 
-.fortnite {
+.project2 {
   position: relative;
-  background-color: darkgray;
+  background-image: url('./tictacSmall.png');
   right: -2000px;
   /* top: 200px; */
   color: white;
+  width: 80%;
   /* font-size: large; */
   align-items: center;
   -webkit-animation: fortnite 4s forwards;
@@ -705,8 +732,9 @@ body {
 
 .project3 {
   position: relative;
-  background-color: darkgray;
-  right: -1500px;
+  background-image: url('./rickSmall.png');
+  right: -2000px;
+  width: 80%;
   /* top: 200px; */
   color: white;
   /* font-size: large; */
@@ -716,8 +744,7 @@ body {
   animation: we 4.5s forwards;
   animation-delay: 1s;
   border-radius: 5%;
-  padding: 5px;
-  margin: 5px;
+  padding: 10px
   }
   .project4 {
     position: relative;
@@ -725,6 +752,7 @@ body {
     right: -2000px;
     /* top: 200px; */
     color: white;
+    width: 80%;
     /* font-size: large; */
     align-items: center;
     -webkit-animation: bottom 4s forwards;
@@ -735,35 +763,23 @@ body {
     padding: 10px
   }
 
-  @keyframes bottom {
-    0%   {background-color:white; right: -2000px; bottom:-2000px;}
-  
-    50%  {background-color: black; left:200px; bottom:0px;}
-
-    100% {background-color: #333; left:0px; bottom:0px;}
-  }
-
-
   .projectText {
+    background-color: rgba(0, 0, 0, .3);
     color: white;
     
   }
 
+  @keyframes bottom {
+    0%   {background-color:white; right: -200vw; bottom:-200vh;}
+  
+    50%  {background-color: black; left:20vw; bottom:0vh;}
 
+    100% {background-color: #333; left:0vw; bottom:0vh;}
+  }
 
-  .contact {
-    /* color: white; */
-    /* position: absolute; */
+   .contact {
     text-align:center;
     font-size: xx-large;
-    /* text-indent: 30pt; */
-
-    /* -webkit-animation: we 0.5s W;
-    -webkit-animation-delay: 3s;
-    animation: we 0.5s forwards;
-    animation-delay: 3s;
-    max-width: 30%; */
-    /* align-content: center; */
   }
 
 
@@ -847,3 +863,5 @@ body {
     0%   {left: 0px ;}
     100% {left: -2000px ;}
   }
+
+

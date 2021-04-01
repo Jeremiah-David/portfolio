@@ -1,3 +1,9 @@
+import construction from '../constuction.jpg'
+// import Stacks from './sections/Stacks'
+import VisibilitySensor from 'react-visibility-sensor'
+import ContactMe from './sections/Contact'
+import Stacks from './sections/Stacks'
+// import ContactMe from './sections/Contact'
 
 function Landing() {
 
@@ -42,11 +48,29 @@ function Landing() {
             <div className="tagStack">
                 <h1> Let's Code </h1>
             </div>
+            <div className="construction">
+                <h4><img src={construction}/> Site Under Construction! Please visit from Desktop</h4>
+            </div>
 
-
+            {/* <VisibilitySensor
+    onChange={(isVisible) => {
+        console.log('seeMe1')
+    }}
+>           
+        <ContactMe />
+        <Stacks />
+            </VisibilitySensor> */}
         </div>
 
     )
 }
 
 export default Landing
+
+
+//landing skills
+
+//margins 
+
+//Dreamers about me
+
