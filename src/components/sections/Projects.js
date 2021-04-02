@@ -124,7 +124,7 @@ function Projects() {
                     </p>
                 </div>
             </div>
-            <div className={tag}>
+            <div className="fixed-bottom">
                 <h1> Let's Code </h1>
             </div>
 

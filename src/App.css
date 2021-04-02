@@ -1,19 +1,20 @@
-
 body {
-  background-repeat: no-repeat;
-  background-position: center;
-  background: rgba(30, 30, 30, 1);
-  animation: landingBack 5s;
-  -webkit-animation: landingBack  60s;
-  -moz-animation: landingBack ease 20s;
-  -o-animation: landingBack ease 20s;
-  -ms-animation: landingBack ease 20s;
-  }
 
+  background: rgb(37, 37, 37);
 
+}
 
+.Show {
+  color: white;
+}
 
-
+.swiper-pagination {
+  bottom: 0;
+  padding-bottom: 1vh;
+  size: 200%;
+  width:10;
+  height:40px;
+}
 
 .waterPic {
   position: relative;
@@ -23,51 +24,50 @@ body {
   max-width: 50vw;
   animation: fadeIn ease 30s;
   -webkit-animation: fadeIn ease 30s;
-  -moz-animation: fadeIn ease 30s; 
+  -moz-animation: fadeIn ease 30s;
   -o-animation: fadeIn ease 30s;
   -ms-animation: fadeIn ease 30s;
-  }
+}
 
-  .projectPicDiv {
-    display:block;
-    position: relative;
-    top: 10vh;
-    right: 0px;
-    float: right;
-    max-width: 50vw;
-    animation: fadeIn ease 30s;
-    -webkit-animation: fadeIn ease 30s;
-    -moz-animation: fadeIn ease 30s;
-    -o-animation: fadeIn ease 30s;
-    -ms-animation: fadeIn ease 30s;
-    margin-right: 1vw;
-    }
-  
-
-
+.projectPicDiv {
+  display: block;
+  position: relative;
+  top: 10vh;
+  right: 0px;
+  float: right;
+  max-width: 50vw;
+  animation: fadeIn ease 30s;
+  -webkit-animation: fadeIn ease 30s;
+  -moz-animation: fadeIn ease 30s;
+  -o-animation: fadeIn ease 30s;
+  -ms-animation: fadeIn ease 30s;
+  margin-right: 1vw;
+}
 
 .hero {
   /* height: 90 vh; */
   position: relative;
   /* top: 100px; */
-  max-width: 50vw;
-    color: white;
-  font-size: xxx-large;
+  /* max-width: 50vw; */
+  color: white;
+  font-size: 50px;
   align-items: center;
   animation: fadeIn ease 4s;
   -webkit-animation: fadeIn ease 4s;
   align-items: center;
   margin-left: 2vw;
-
 }
 
+@media (min-width: 992px) { 
+  h1 {font-size:5rem;} /*1rem = 16px*/
+}
 
 .title2 {
   position: relative;
   left: -100vw;
-  top: -5vh;
+  /* top: -5vh; */
   /* top: 200px; */
-  max-width: 50%;
+  /* max-width: 50%; */
 
   color: white;
   font-size: xx-large;
@@ -77,163 +77,170 @@ body {
   animation: slide 2.5s forwards;
   animation-delay: 1s;
   margin-left: 2vw;
-  
-
 }
 
-  .skill1 {
-    color: white;
-    right: -150vw;
-    top: -30vh;
+.skill1 {
+  color: white;
+  right: -150vw;
+  /* top: -30vh; */
+  font-size: x-large;
+
+  float: right;
+  position: relative;
+  animation: slideRight forwards 2s;
+  -webkit-animation: slideRight forwards 2s;
+  animation-delay: 1s;
+  -webkit-animation-delay: 1s;
+  margin-right: 2vw;
+  animation-fill-mode: forwards;
+}
+
+.skill2 {
+  color: white;
+  right: -150vw;
+  /* top: -30vh; */
+  font-size: x-large;
+  float: right;
+  position: relative;
+  animation: slideRight forwards 2s;
+  -webkit-animation: slideRight forwards 2s;
+  animation-delay: 1.5s;
+  -webkit-animation-delay: 1.5s;
+  animation-fill-mode: forwards;
+}
+
+.skill3 {
+  background-image: linear-gradient(
+    to left,
+    violet,
+    rgb(178, 122, 218),
+    rgb(118, 118, 255),
+    rgb(155, 241, 155),
+    yellow,
+    orange,
+    red
+  );
+  -webkit-background-clip: text;
+  color: transparent;
+  right: -150vw;
+  /* top: -30vh; */
+  font-size: x-large;
+  float: right;
+  position: relative;
+  animation: slideRight forwards 2s;
+  -webkit-animation: slideRight forwards 2s;
+  animation-delay: 2.5s;
+  -webkit-animation-delay: 2.5s;
+  animation-fill-mode: forwards;
+}
+
+.skill4 {
+  animation: slideRight forwards 2s;
+  color: white;
+  right: -150vw;
+  /* top: -30vh; */
+  font-size: x-large;
+   float: right;
+  position: relative;
+  animation: slideRight forwards 2s;
+  -webkit-animation: slideRight forwards 2s;
+  animation-delay: 2s;
+  -webkit-animation-delay: 2s;
+
+  animation-fill-mode: forwards;
+}
+
+
+
+.skill5 {
+  color: white;
+  left: -150vw;
     font-size: x-large;
-    max-width: 50%;
-    float: right;
-    position: relative;
-    animation: slideRight forwards 2s;
-    -webkit-animation: slideRight forwards 2s;
-    animation-delay: 1s;
-    -webkit-animation-delay: 1s;
-    margin-right: 2vw;
-    animation-fill-mode: forwards
-    
-  }
+  display: inline;
+  /* max-width: 50%; */
+  /* float: left; */
+  position: relative;
+  animation: slide forwards 2s;
+  -webkit-animation: slide forwards 2s;
+  animation-delay: 1s;
+  -webkit-animation-delay: 1s;
+  margin-left: 2vw;
+  animation-fill-mode: forwards;
+}
 
-  .skill2 {
-    color: white;
-    right: -150vw;
-    top: -30vh;
+.skill6 {
+  color: white;
+  left: -150vw;
     font-size: x-large;
-    max-width: 50%;
-    float: right;
-    position: relative;
-    animation: slideRight forwards 2s;
-    -webkit-animation: slideRight forwards 2s;
-    animation-delay: 1.5s;
-    -webkit-animation-delay: 1.5s;
-    animation-fill-mode: forwards
-  }
+  display: inline;
+  margin-left: 2vw;
+  float: left;
+  position: relative;
+  animation: slide forwards 2s;
+  -webkit-animation: slide forwards 2s;
+  animation-delay: 1.5s;
+  -webkit-animation-delay: 1.5s;
+  animation-fill-mode: forwards;
+}
 
-  .skill3 {
-    background-image: linear-gradient(to left, violet, rgb(137, 55, 195), rgb(80, 80, 156), green, yellow, orange, red);   
-    -webkit-background-clip: text;
-    color: transparent;
-    right: -150vw;
-    top: -30vh;
-    font-size: x-large;
-    max-width: 50%;
-    float: right;
-    position: relative;
-    animation: slideRight forwards 2s;
-    -webkit-animation: slideRight forwards 2s;
-    animation-delay: 2.5s;
-    -webkit-animation-delay: 2.5s;
-    animation-fill-mode: forwards
-  }
-
-  .skill4 {
-    animation: slideRight forwards 2s;
-    color: white;
-    right: -150vw;
-    top: -30vh;
-    font-size: x-large;
-    max-width: 50%;
-    float: right;
-    position: relative;
-    animation: slideRight forwards 2s;
-    -webkit-animation: slideRight forwards 2s;
-    animation-delay: 2s;
-    -webkit-animation-delay: 2s;
-   
-    animation-fill-mode: forwards
-  }
-
-
-  .skill5 {
-    color: white;
-    left: -150vw;
-    top: 20vh;
-    font-size: x-large;
-    display: inline;
-    /* max-width: 50%; */
-    /* float: left; */
-    position: relative;
-    animation: slide forwards 2s;
-    -webkit-animation: slide forwards 2s;
-    animation-delay: 1s;
-    -webkit-animation-delay: 1s;
-    margin-left: 2vw;
-    animation-fill-mode: forwards
-  }
-
-  .skill6 {
-    color: white;
-    left: -150vw;
-    top: 20vh;
-    font-size: x-large;
-    display: inline;
-    margin-left: 2vw;
-    float: left;
-    position: relative;
-    animation: slide forwards 2s;
-    -webkit-animation: slide forwards 2s;
-    animation-delay: 1.5s;
-    -webkit-animation-delay: 1.5s;
-    animation-fill-mode: forwards
-  }
-
-  .skill8 {
-    background-image: linear-gradient(to left, violet, rgb(137, 55, 195), rgb(80, 80, 156), green, yellow, orange, red);   
-   -webkit-background-clip: text;
-    color: transparent;
-    left: -150vw;
-    top: 20vh;
-    font-size: x-large;
-    
-    float: left;
-    position: relative;
-   
-    animation: slide forwards 2s;
-    -webkit-animation: slide forwards 2s;
-    animation-delay: 2.5s;
-    -webkit-animation-delay: 2.5s;
-    animation-fill-mode: forwards
-  }
-
-  .skill7 {
-    animation: slideRight forwards 2s;
-    color: white;
-    left: -150vw;
-    top: 20vh;
-    font-size: x-large;
-    
-    float: left;
-    position: relative;
-    animation: slide forwards 2s;
-    -webkit-animation: slide forwards 2s;
-    animation-delay: 2s;
-    -webkit-animation-delay: 2s;
-    animation-fill-mode: forwards
-  }
-
-  .construction {
-    position: absolute;
-    /* margin:0 auto; */
-    bottom: 0;
-    /* right: 0; */
-    color:white;
-
-  }
+.skill8 {
+  background-image: linear-gradient(
+    to left,
+    violet,
+    rgb(186, 126, 230),
+    rgb(80, 80, 156),
+    green,
+    yellow,
+    orange,
+    red
+  );
+  -webkit-background-clip: text;
+  color: transparent;
+  left: -150vw;
   
+  font-size: x-large;
 
+  float: left;
+  position: relative;
 
+  animation: slide forwards 2s;
+  -webkit-animation: slide forwards 2s;
+  animation-delay: 2.5s;
+  -webkit-animation-delay: 2.5s;
+  animation-fill-mode: forwards;
+}
 
+.skill7 {
+  
+  color: white;
+  left: -150vw;
+  font-size: x-large;
+  float: left;
+  position: relative;
+  animation: slide forwards 2s;
+  -webkit-animation: slide forwards 2s;
+  animation-delay: 2s;
+  -webkit-animation-delay: 2s;
+  animation-fill-mode: forwards;
+}
 
+.construction {
+  position: absolute;
+  /* margin:0 auto; */
+  bottom: 0;
+  /* right: 0; */
+  color: white;
+  display: none;
+}
 
 @keyframes fadeIn {
-  0% {opacity:0;}
-  100% {opacity:1;}
+  0% {
+    opacity: 0;
   }
-
+  100% {
+    opacity: 1;
+  }
+}
 
 .tag {
   /* height:  vh; */
@@ -243,17 +250,15 @@ body {
   font-size: xxx-large;
   max-width: 50%;
   float: right;
-  
+
   position: relative;
   animation: fadeInTag ease 10s;
   -webkit-animation: fadeInTag ease 10s;
   animation-delay: 3s;
   -webkit-animation-delay: 3s;
   margin-right: 2vw;
-  animation-fill-mode: forwards
+  animation-fill-mode: forwards;
 }
-
-
 
 .stackTitle {
   color: white;
@@ -264,17 +269,15 @@ body {
   -webkit-animation: fadeIn ease 3s;
   max-width: 50%;
   margin-left: 5vw;
-  
 }
-
 
 .tagStack {
   display: flex;
   /* height: 90 vh; */
-  position: absolute;
+  /* position: absolute; */
   color: white;
   font-size: xxx-large;
-  top: 40vh;
+  /* top: 40vh; */
   right: 0px;
   float: right;
   justify-content: flex-end;
@@ -284,32 +287,829 @@ body {
   -webkit-animation-delay: 1.5s;
   opacity: 0;
   margin-right: 2vw;
-  animation-fill-mode: forwards
-
-  
+  animation-fill-mode: forwards;
 }
 
-
 .stackList {
-  position: relative ;
+  position: relative;
   left: -50vw;
   top: 10vh;
   /* max-width: 500%; */
   color: white;
   font-size: xx-large;
   /* align-items: center; */
+  -webkit-animation: slide 1s forwards;
+  /* -webkit-animation-delay: .5s; */
+  animation: slide 1s forwards;
+  /* animation-delay: .5s; */
+  margin-left: 1vw;
+}
+
+@keyframes fadeInTag {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* Substacks and anmimation */
+
+.mongoose {
+  position: relative;
+  right: -200vw;
+  color: white;
+  -webkit-animation: slideRight 1s forwards;
+  -webkit-animation-delay: 1s;
+  animation: slideRight 1s forwards;
+  animation-delay: 1s;
+  padding: 5px;
+}
+
+.atlas {
+  position: relative;
+  right: -200vw;
+  color: white;
+  -webkit-animation: bottomStack 3s forwards;
+  -webkit-animation-delay: 1s;
+  animation: bottomStack 3s forwards;
+  animation-delay: 1s;
+}
+
+.postgre {
+  position: relative;
+  right: -200vw;
+  color: white;
+  -webkit-animation: bottomStack 3s forwards;
+  -webkit-animation-delay: 1s;
+  animation: bottomStack 3s forwards;
+  animation-delay: 1s;
+}
+
+.sequelize {
+  position: relative;
+  right: -200vw;
+  color: white;
+  -webkit-animation: slideRight 3s forwards;
+  -webkit-animation-delay: 1s;
+  animation: slideRight 3s forwards;
+  animation-delay: 1s;
+}
+
+.flask {
+  position: relative;
+  top: -200vh;
+  color: white;
+  -webkit-animation: topStack 6s forwards;
+  -webkit-animation-delay: 1s;
+  animation: topStack 6s forwards;
+  animation-delay: 1s;
+}
+
+.redux {
+  position: relative;
+  bottom: -200vh;
+  color: white;
+  -webkit-animation: topStack 3s forwards;
+  -webkit-animation-delay: 1s;
+  animation: topStack 3s forwards;
+  animation-delay: 1s;
+}
+
+.socket {
+  position: relative;
+  right: -200vw;
+  color: white;
+  -webkit-animation: bottomStack 3.5s forwards;
+  -webkit-animation-delay: 1s;
+  animation: bottomStack 3.5s forwards;
+  animation-delay: 1s;
+}
+
+.next {
+  position: relative;
+  right: -400vw;
+  color: white;
+  -webkit-animation: slideRight 4s forwards;
+  -webkit-animation-delay: 1s;
+  animation: slideRight 4s forwards;
+  animation-delay: 1s;
+}
+
+.bootstrap {
+  position: relative;
+  right: -200vw;
+  color: white;
+  -webkit-animation: bottomStack 3.5s forwards;
+  -webkit-animation-delay: 1s;
+  animation: bottomStack 3.5s forwards;
+  animation-delay: 1s;
+}
+
+.rest {
+  position: relative;
+  right: -400vw;
+  color: white;
+  -webkit-animation: slideRight 4.5s forwards;
+  -webkit-animation-delay: 2s;
+  animation: slideRight 4.5s forwards;
+  animation-delay: 1s;
+}
+
+.reactive {
+  position: relative;
+  right: -200vw;
+  color: white;
+  -webkit-animation: topStack 3s forwards;
+  -webkit-animation-delay: 1s;
+  animation: topStack 3s forwards;
+  animation-delay: 1s;
+}
+
+.topPipe {
+  background-image: linear-gradient(
+    to left,
+    violet,
+    indigo,
+    blue,
+    green,
+    yellow,
+    orange,
+    red
+  );
+  -webkit-background-clip: text;
+  color: transparent;
+  position: relative;
+  top: -200vh;
+  /* left: 600px; */
+
+  -webkit-animation: pipeStackTop 2s forwards;
+  -webkit-animation-delay: 3s;
+  animation: pipeStackTop 2s forwards;
+  animation-delay: 3s;
+}
+
+.landingBottomPipe {
+  background-image: linear-gradient(
+    to left,
+    violet,
+    indigo,
+    blue,
+    green,
+    yellow,
+    orange,
+    red
+  );
+  -webkit-background-clip: text;
+  color: transparent;
+  position: relative;
+  bottom: -200vh;
+  /* left: 600px; */
+
+  -webkit-animation: pipeLandingBottom 2s forwards;
+  -webkit-animation-delay: 3s;
+  animation: pipeLandingBottom 2s forwards;
+  animation-delay: 3s;
+}
+
+.bottomPipe {
+  background-image: linear-gradient(
+    to left,
+    violet,
+    indigo,
+    blue,
+    green,
+    yellow,
+    orange,
+    red
+  );
+  -webkit-background-clip: text;
+  color: transparent;
+  position: relative;
+  -webkit-animation: pipeStackBottom 1s ease;
+  -webkit-animation-delay: 4s;
+  animation: pipeStackBottom 1s ease;
+  animation-delay: 4s;
+  opacity: 0;
+  animation-fill-mode: forwards;
+}
+
+@keyframes bottomStack {
+  0% {
+    right: -200vw;
+    bottom: -2000px;
+  }
+
+  50% {
+    left: 200px;
+    bottom: 0px;
+  }
+
+  100% {
+    left: 0px;
+    bottom: 0px;
+  }
+}
+
+@keyframes topStack {
+  0% {
+    right: -2000px;
+    top: -2000px;
+  }
+
+  50% {
+    left: 200px;
+    top: 0px;
+  }
+
+  100% {
+    left: 0px;
+    top: 0px;
+  }
+}
+
+@keyframes pipeStackTop {
+  0% {
+    top: -2000px;
+  }
+  100% {
+    top: 0px;
+  }
+}
+
+@keyframes pipeLandingBottom {
+  0% {
+    bottom: -2000px;
+  }
+  100% {
+    bottom: 0px;
+  }
+}
+
+@keyframes pipeStackBottom {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.dadPic {
+  position: absolute;
+  left: -600px;
+  max-width: 50%;
+  -webkit-animation: slide 0.5s forwards;
+  -webkit-animation-delay: 2s;
+  animation: slide 0.5s forwards;
+  animation-delay: 2s;
+}
+
+@-webkit-keyframes slide {
+  100% {
+    left: 0;
+  }
+}
+
+@keyframes slide {
+  100% {
+    left: 0;
+  }
+}
+
+@-webkit-keyframes slideRight {
+  /* 0% { right: -200vw } */
+  100% {
+    right: 5px;
+  }
+}
+
+@keyframes slideRight {
+  /* 0% { right: -100vw} */
+  100% {
+    right: 5px;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes we {
+  100% {
+    right: 0px;
+  }
+}
+
+@keyframes we {
+  100% {
+    right: 0px;
+  }
+}
+
+
+
+ul {
+  list-style-type: none;
+}
+
+.swiper-container {
+  width: 75vw;
+  height: 40vh;
+  align-content: center;
+}
+.aboutTitle {
+  color: white;
+  font-size: xx-large;
+  align-items: center;
+  animation: fadeIn ease 3s;
+  position: relative;
+  -webkit-animation: fadeIn ease 3s;
+  max-width: 50%;
+  margin-left: 2vw;
+}
+
+.familyPic {
+  position: relative;
+  left: -600px;
+  max-width: 50%;
+  -webkit-animation: slide 0.5s forwards;
+  -webkit-animation-delay: 1s;
+  animation: slide 0.5s forwards;
+  animation-delay: 1s;
+  margin-left: 1vw;
+}
+
+.weAre {
+  color: white;
+  font-size: x-large;
+  position: absolute;
+  top: 20vh;
+  right: -250vw;
+  -webkit-animation: we 0.5s W;
+  -webkit-animation-delay: 1s;
+  animation: we 0.5s forwards;
+  animation-delay: 1s;
+  margin-right: 3vw;
+}
+
+.dreamer {
+  color: white;
+  float: right;
+  position: absolute;
+  font-size: x-large;
+  right: -200vw;
+  top: 25vh;
+  -webkit-animation: we 0.5s W;
+  -webkit-animation-delay: 1.5s;
+  animation: we 0.5s forwards;
+  animation-delay: 1.5s;
+  margin-right: 3vw;
+}
+
+.aboutText {
+  color: white;
+  position: absolute;
+  text-align: justify;
+  font-size: xx-large;
+  text-indent: 30pt;
+  right: -200vw;
+  top: 35vh;
+  -webkit-animation: we 0.5s W;
+  -webkit-animation-delay: 2s;
+  animation: we 0.5s forwards;
+  animation-delay: 2s;
+  max-width: 50vw;
+  margin-right: 3vw;
+}
+
+/*    Projects   */
+
+.kombat {
+  position: relative;
+  background-image: url("./kombat.png");
+  left: -800px;
+
+  color: white;
+  width: 80%;
+  align-items: center;
+  -webkit-animation: slide 4.5s forwards;
+  -webkit-animation-delay: 1s;
+  animation: slide 4.5s forwards;
+  animation-delay: 1s;
+  border-radius: 5%;
+  padding: 10px;
+}
+
+.project2 {
+  position: relative;
+  background-image: url("./tictacSmall.png");
+  right: -2000px;
+  /* top: 200px; */
+  color: white;
+  width: 80%;
+  /* font-size: large; */
+  align-items: center;
+  -webkit-animation: fortnite 4s forwards;
+  -webkit-animation-delay: 1s;
+  animation: fortnite 4s forwards;
+  animation-delay: 1s;
+  border-radius: 5%;
+  padding: 10px;
+}
+
+@keyframes fortnite {
+  0% {
+    background-color: white;
+    right: -2000px;
+    top: -2000px;
+  }
+  /* 25%  {background-color:white; left:200px; top:-200px;} */
+  50% {
+    background-color: black;
+    left: 200px;
+    top: 0px;
+  }
+  /* 75%  {background-color: black; left:0px; top:200px;} */
+  100% {
+    background-color: #333;
+    left: 0px;
+    top: 0px;
+  }
+}
+
+.project3 {
+  position: relative;
+  background-image: url("./rickSmall.png");
+  right: -2000px;
+  width: 80%;
+  /* top: 200px; */
+  color: white;
+  /* font-size: large; */
+  align-items: center;
+  -webkit-animation: we 4.5s forwards;
+  -webkit-animation-delay: 1s;
+  animation: we 4.5s forwards;
+  animation-delay: 1s;
+  border-radius: 5%;
+  padding: 10px;
+}
+.project4 {
+  position: relative;
+  background-color: darkgray;
+  right: -2000px;
+  /* top: 200px; */
+  color: white;
+  width: 80%;
+  /* font-size: large; */
+  align-items: center;
+  -webkit-animation: bottom 4s forwards;
+  -webkit-animation-delay: 1s;
+  animation: bottom 4s forwards;
+  animation-delay: 1s;
+  border-radius: 5%;
+  padding: 10px;
+}
+
+.projectText {
+  background-color: rgba(0, 0, 0, 0.3);
+  color: white;
+}
+
+@keyframes bottom {
+  0% {
+    background-color: white;
+    right: -200vw;
+    bottom: -200vh;
+  }
+
+  50% {
+    background-color: black;
+    left: 20vw;
+    bottom: 0vh;
+  }
+
+  100% {
+    background-color: #333;
+    left: 0vw;
+    bottom: 0vh;
+  }
+}
+
+.contact {
+  text-align: center;
+  font-size: xx-large;
+}
+
+.contactName {
+  color: white;
+  position: relative;
+  top: -1000px;
+  -webkit-animation: contactTop 2s W;
+  -webkit-animation-delay: 1s;
+  animation: contactTop 2s forwards;
+  animation-delay: 1s;
+}
+
+@keyframes contactTop {
+  0% {
+    top: -1000px;
+  }
+  100% {
+    top: 0px;
+  }
+}
+
+.contactNumber {
+  color: white;
+  position: relative;
+  left: -1600px;
+  -webkit-animation: contactLeft 2s W;
+  -webkit-animation-delay: 1s;
+  animation: contactLeft 2s forwards;
+  animation-delay: 1s;
+}
+@keyframes contactLeft {
+  0% {
+    left: -1000px;
+  }
+  100% {
+    left: 0px;
+  }
+}
+.contactEmail {
+  color: white;
+  position: relative;
+  right: -1600px;
+  -webkit-animation: contactRight 2s W;
+  -webkit-animation-delay: 1s;
+  animation: contactRight 2s forwards;
+  animation-delay: 1s;
+}
+
+@keyframes contactRight {
+  0% {
+    right: -1000px;
+  }
+  100% {
+    right: 0px;
+  }
+}
+
+.contactLinkin {
+  color: white;
+  position: relative;
+  left: -1600px;
+  -webkit-animation: contactLeft 2s W;
+  -webkit-animation-delay: 1s;
+  animation: contactLeft 02s forwards;
+  animation-delay: 1s;
+}
+
+.contactHub {
+  color: white;
+  position: relative;
+  bottom: -1600px;
+  -webkit-animation: contactBottom 2s W;
+  -webkit-animation-delay: 1s;
+  animation: contactBottom 2s forwards;
+  animation-delay: 1s;
+}
+
+@keyframes contactBottom {
+  0% {
+    bottom: -1600px;
+  }
+  100% {
+    bottom: 0px;
+  }
+}
+
+.hidden {
+  position: absolute;
+  animation: unLoad forwards 2s;
+  -webkit-animation: unLoad forwards 2s;
+}
+
+@keyframes unLoad {
+  0% {
+    left: 0px;
+  }
+  100% {
+    left: -2000px;
+  }
+}
+
+.swiperShow {
+  color: white;
+  top: 30vh;
+}
+
+.fixed-bottom {
+  color: white;
+}
+
+/*  Phones!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+@media only screen and (max-width: 750px) {
+  .hero {
+    font-size: x-large;
+  }
+
+  .title2 {
+    font-size: x-large;
+    position: relative;
+    top: 0.1vh;
+  }
+  .tagStack {
+    display: inline;
+    position: static;
+    top: -20vh;
+    right: 0vw;
+    /* max-width: 50vw; */
+    color: white;
+    font-size: x-large;
+    /* align-items: center; */
+    animation: fadeInTag ease 10s;
+    -webkit-animation: fadeInTag ease 10s;
+    animation-delay: 2s;
+    -webkit-animation-delay: 2s;
+    align-items: center;
+    margin-right: 2vw;
+    animation-fill-mode: forwards;
+  }
+
+  .fixed-bottom {
+    color: white;
+  }
+
+  .construction {
+    visibility: hidden;
+  }
+
+
+.skill1 {
+  position: relative;
+  top: 1vh;
+  /* right: 0vw; */
+  font-size: x-small;
+}
+.skill2 {
+  font-size: x-small;
+  position: relative;
+  top: 1vh;
+  /* right: 0vw; */
+}
+.skill3 {
+  font-size: x-small;
+  position: relative;
+  top: 1vh;
+  /* right: 0vw; */
+}
+.skill4 {
+  font-size: x-small;
+  position: relative;
+  top: 1vh;
+  /* right: 0vw; */
+}
+.skill5 {
+
+  font-size: x-small;
+  position: relative;
+  top: 5vh;
+}
+.skill6 {
+ 
+  font-size: x-small;
+  position: relative;
+  top: 5vh;
+}
+.skill7 {
+ 
+  font-size: x-small;
+  position: relative;
+  top: 5vh;
+}
+.skill8 {
+ 
+  font-size: x-small;
+  position: relative;
+  top: 5vh;
+}
+
+
+
+
+
+.stackTitle {
+  color: white;
+  font-size: x-small;
+  align-items: center;
+  animation: fadeIn ease 3s;
+  position: absolute;
+  -webkit-animation: fadeIn ease 3s;
+  
+  
+  margin-left: 10vw;
+}
+
+.tagStack {
+  display: flex;
+  /* height: 90 vh; */
+  position: absolute;
+  color: white;
+  font-size: initial;
+  top: 10vh;
+  right: 0px;
+  float: right;
+  justify-content: flex-end;
+  animation: fadeInTag ease 10s;
+  -webkit-animation: fadeInTag ease 10s;
+  animation-delay: 1.5s;
+  -webkit-animation-delay: 1.5s;
+  opacity: 0;
+  margin-right: 2vw;
+  animation-fill-mode: forwards;
+}
+
+.stackList {
+  position: relative;
+  left: -60vw;
+  top: 18vh;
+  /* max-height: 30vh; */
+  /* max-width: 500%; */
+  color: white;
+  font-size: large;
+  /* align-items: center; */
   -webkit-animation: slide 2.5s forwards;
   -webkit-animation-delay: 1s;
   animation: slide 2.5s forwards;
   animation-delay: 1s;
   margin-left: 1vw;
-  }
 
-@keyframes fadeInTag {
-  0% {opacity:0;}
-  100% {opacity:1;}
+  
+}
+ul {
+  list-item-style:none; 
+  margin-left:5px;
+  padding-left:0px;
+
 }
 
+.icon {
+  width: 2.5vh;
+}
+
+@keyframes fadeInTag {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 
 /* Substacks and anmimation */
 
@@ -322,7 +1122,6 @@ body {
   animation: slideRight 2s forwards;
   animation-delay: 2s;
   padding: 5px;
-
 }
 
 .atlas {
@@ -333,7 +1132,6 @@ body {
   -webkit-animation-delay: 2s;
   animation: bottomStack 4s forwards;
   animation-delay: 2s;
-  
 }
 
 .postgre {
@@ -400,12 +1198,11 @@ body {
   position: relative;
   right: -200vw;
   color: white;
-  -webkit-animation: bottomStack 6.5s forwards;
+  -webkit-animation: bottomStack 4.5s forwards;
   -webkit-animation-delay: 2s;
-  animation: bottomStack 6.5s forwards;
+  animation: bottomStack 4.5s forwards;
   animation-delay: 2s;
 }
-
 
 .rest {
   position: relative;
@@ -421,447 +1218,13 @@ body {
   position: relative;
   right: -200vw;
   color: white;
-  -webkit-animation: topStack 6s forwards;
+  -webkit-animation: topStack 4s forwards;
   -webkit-animation-delay: 2s;
-  animation: topStack 6s forwards;
+  animation: topStack 4s forwards;
   animation-delay: 2s;
 }
 
-
-.topPipe {
-  background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);   
-  -webkit-background-clip: text;
-  color: transparent;
-  position: relative;
-  top: -200vh;
-  /* left: 600px; */
-  
-  -webkit-animation: pipeStackTop 2s forwards;
-  -webkit-animation-delay: 3s;
-  animation: pipeStackTop 2s forwards;
-  animation-delay: 3s;
+.waterPic {
+  display: none;
 }
-
-.landingBottomPipe {
-  background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);   
-  -webkit-background-clip: text;
-  color: transparent;
-  position: relative;
-  bottom: -200vh;
-  /* left: 600px; */
-  
-  -webkit-animation: pipeLandingBottom 2s forwards;
-  -webkit-animation-delay: 3s;
-  animation: pipeLandingBottom 2s forwards;
-  animation-delay: 3s;
 }
-
-.bottomPipe {
-  background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);   
-  -webkit-background-clip: text;
-    color: transparent;
-  position: relative;
-  -webkit-animation: pipeStackBottom 1s ease;
-  -webkit-animation-delay: 8.2s;
-  animation: pipeStackBottom 1s ease;
-  animation-delay: 8.2s;
-  opacity:0;
-  animation-fill-mode: forwards
-}
-
-
-@keyframes bottomStack {
-  0%   {right: -200vw; bottom:-2000px;}
-
-  50%  {left:200px; bottom:0px;}
-
-  100% {left:0px; bottom:0px;}
-}
-
-
-@keyframes topStack {
-  0%   { right: -2000px; top:-2000px;}
-
-  50%  {left:200px; top:0px;}
-
-  100% {left:0px; top:0px;}
-}
-
-@keyframes pipeStackTop {
-  0%   {top:-2000px;}
-  100% {top:0px;}
-}
-
-@keyframes pipeLandingBottom {
-  0%   {bottom:-2000px;}
-  100% {bottom:0px;}
-}
-
-@keyframes pipeStackBottom {
-  0% {opacity:0;}
-  100% {opacity:1;}
-  }
-
-
-
-
-
-.dadPic {
-  position: absolute;
-  left: -600px;
-  max-width: 50%;
-  -webkit-animation: slide 0.5s forwards;
-  -webkit-animation-delay: 2s;
-  animation: slide 0.5s forwards;
-  animation-delay: 2s;
-  
-}
-
-
-
-@-webkit-keyframes slide {
-  100% { left: 0; }
-}
-
-@keyframes slide {
-  100% { left: 0; }
-}
-
-@-webkit-keyframes slideRight {
-  /* 0% { right: -200vw } */
-  100% { right: 5px; }
-}
-
-@keyframes slideRight {
-  /* 0% { right: -100vw} */
-  100% { right: 5px; }
-}
-
-
-@keyframes fadeIn {
-  0% {opacity:0;}
-  100% {opacity:1;}
-}
-
-@-moz-keyframes fadeIn {
-  0% {opacity:0;}
-  100% {opacity:1;}
-}
-
-@-webkit-keyframes fadeIn {
-  0% {opacity:0;}
-  100% {opacity:1;}
-}
-
-@-o-keyframes fadeIn {
-  0% {opacity:0;}
-  100% {opacity:1;}
-}
-
-@-ms-keyframes fadeIn {
-  0% {opacity:0;}
-  100% {opacity:1;}
-}
-
-
-@-webkit-keyframes we {
-  100% { right: 0px; }
-}
-
-@keyframes we {
-  100% { right: 0px; }
-}
-
-.sns-btn {
-  color: white;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 70px;
-  width: 70px;
-  border-radius: 50%;
-  /* padding: 0px, 50px, 0px, 50px; */
-  margin-left: 100px;
-  border: none;
-  transition-duration: .5s;
-  transform: rotateX(45deg);
-  box-shadow: 0px 10px 5px rgba(0, 0, 0, .3);
-  cursor: pointer;
-}
-
-.sns-btn:hover {
-  transform: scale(1.8);
-  box-shadow: none;
-}
-.sns-btn.__icon {
-  font-size: 33px;
-  letter-spacing: 0.1em;
-  color: #fff;
-}
-
-
-.Nav {
-  display: flex;
-  justify-content: center;
-  
-}
-
-ul {
-  list-style-type:none;
-}
-
-.footer {
-  color: white;
-  display: block;
-}
-
-.aboutTitle {
-  color: white;
-  font-size: xx-large;
-  align-items: center;
-  animation: fadeIn ease 3s;
-  position: relative;
-  -webkit-animation: fadeIn ease 3s;
-  max-width: 50%;
-  margin-left: 2vw;
-
-}
-
-
-.familyPic {
-  position: relative;
-  left: -600px;
-  max-width: 50%;
-  -webkit-animation: slide 0.5s forwards;
-  -webkit-animation-delay: 1s;
-  animation: slide 0.5s forwards;
-  animation-delay: 1s;
-  margin-left: 1vw;
-  
-}
-
-
-
-  .weAre {
-    color:white;
-    font-size: x-large;
-    position: absolute;
-    top: 20vh;
-    right: -250vw;
-    -webkit-animation: we 0.5s W;
-    -webkit-animation-delay: 2s;
-    animation: we 0.5s forwards;
-    animation-delay: 2s;
-    margin-right: 3vw;
-  }
-
-  .dreamer {
-    color: white;
-    float: right;
-    position: absolute;
-    font-size: x-large;
-    right: -200vw;
-    top: 25vh;
-    -webkit-animation: we 0.5s W;
-    -webkit-animation-delay: 4s;
-    animation: we 0.5s forwards;
-    animation-delay: 4s;
-    margin-right: 3vw;
-  }
-
-
-  .aboutText {
-    color: white;
-    position: absolute;
-    text-align:justify;
-    font-size: xx-large;
-    text-indent: 30pt;
-    right: -200vw;
-    top: 35vh;
-    -webkit-animation: we 0.5s W;
-    -webkit-animation-delay: 3s;
-    animation: we 0.5s forwards;
-    animation-delay: 3s;
-    max-width: 50vw;
-    margin-right: 3vw;
-  }
-
-/*    Projects   */
-
-
-.kombat {
-  position: relative;
-  background-image: url('./kombat.png');
-  left: -800px;
-  
-  color: white;
-  width: 80%;
-  align-items: center;
-  -webkit-animation: slide 4.5s forwards;
-  -webkit-animation-delay: 1s;
-  animation: slide 4.5s forwards;
-  animation-delay: 1s;
-  border-radius: 5%;
-  padding: 10px
-  }
-
-.project2 {
-  position: relative;
-  background-image: url('./tictacSmall.png');
-  right: -2000px;
-  /* top: 200px; */
-  color: white;
-  width: 80%;
-  /* font-size: large; */
-  align-items: center;
-  -webkit-animation: fortnite 4s forwards;
-  -webkit-animation-delay: 1s;
-  animation: fortnite 4s forwards;
-  animation-delay: 1s;
-  border-radius: 5%;
-  padding: 10px
-}
-
-@keyframes fortnite {
-  0%   {background-color:white; right: -2000px; top:-2000px;}
-  /* 25%  {background-color:white; left:200px; top:-200px;} */
-  50%  {background-color: black; left:200px; top:0px;}
-  /* 75%  {background-color: black; left:0px; top:200px;} */
-  100% {background-color: #333; left:0px; top:0px;}
-}
-
-.project3 {
-  position: relative;
-  background-image: url('./rickSmall.png');
-  right: -2000px;
-  width: 80%;
-  /* top: 200px; */
-  color: white;
-  /* font-size: large; */
-  align-items: center;
-  -webkit-animation: we 4.5s forwards;
-  -webkit-animation-delay: 1s;
-  animation: we 4.5s forwards;
-  animation-delay: 1s;
-  border-radius: 5%;
-  padding: 10px
-  }
-  .project4 {
-    position: relative;
-    background-color: darkgray;
-    right: -2000px;
-    /* top: 200px; */
-    color: white;
-    width: 80%;
-    /* font-size: large; */
-    align-items: center;
-    -webkit-animation: bottom 4s forwards;
-    -webkit-animation-delay: 1s;
-    animation: bottom 4s forwards;
-    animation-delay: 1s;
-    border-radius: 5%;
-    padding: 10px
-  }
-
-  .projectText {
-    background-color: rgba(0, 0, 0, .3);
-    color: white;
-    
-  }
-
-  @keyframes bottom {
-    0%   {background-color:white; right: -200vw; bottom:-200vh;}
-  
-    50%  {background-color: black; left:20vw; bottom:0vh;}
-
-    100% {background-color: #333; left:0vw; bottom:0vh;}
-  }
-
-   .contact {
-    text-align:center;
-    font-size: xx-large;
-  }
-
-
-  .contactName {
-    color: white;
-    position: relative;
-    top: -1000px;
-    -webkit-animation: contactTop 2s W;
-    -webkit-animation-delay: 1s;
-    animation: contactTop 2s forwards;
-    animation-delay: 1s;
-  }
-
-  @keyframes contactTop {
-    0%   {top:-1000px;}
-    100% {top:0px;}
-  }
-
-  .contactNumber {
-    color: white;
-    position: relative;
-    left: -1600px;
-    -webkit-animation: contactLeft 2s W;
-    -webkit-animation-delay: 1s;
-    animation: contactLeft 2s forwards;
-    animation-delay: 1s;
-  }
-  @keyframes contactLeft {
-    0%   {left:-1000px;}
-    100% {left :0px;}
-  }
-  .contactEmail {
-    color: white;
-    position: relative;
-    right: -1600px;
-    -webkit-animation: contactRight 2s W;
-    -webkit-animation-delay: 1s;
-    animation: contactRight 2s forwards;
-    animation-delay: 1s;
-  }
-
-  @keyframes contactRight {
-    0%   {Right:-1000px;}
-    100% {Right :0px;}
-  }
-
-  .contactLinkin {
-    color: white;
-    position: relative;
-    left: -1600px;
-    -webkit-animation: contactLeft 2s W;
-    -webkit-animation-delay: 1s;
-    animation: contactLeft 02s forwards;
-    animation-delay: 1s;
-  }
-
-
-  .contactHub {
-    color: white;
-    position: relative;
-    bottom: -1600px;
-    -webkit-animation: contactBottom 2s W;
-    -webkit-animation-delay: 1s;
-    animation: contactBottom 2s forwards;
-    animation-delay: 1s;
-  }
-
-  @keyframes contactBottom {
-    0%   {Bottom:-1600px;}
-    100% {Bottom:0px;}
-  }
-
-
-  .hidden {
-    position: absolute;
-    animation: unLoad forwards 2s;
-    -webkit-animation: unLoad forwards 2s;
-  }
-
-  @keyframes unLoad {
-    0%   {left: 0px ;}
-    100% {left: -2000px ;}
-  }
-
-

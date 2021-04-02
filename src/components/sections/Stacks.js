@@ -17,16 +17,16 @@ function Stacks(props) {
 
     let stackViews = props.stack
     console.log("this is props", props.stack)
-    const [stacks, setStacks]= useState("hide")
+    const [stacks, setStacks] = useState("hide")
 
     if (stackViews == 2) {
         console.log(stackViews, "this is stackviews")
         // setStacks('stack') 
         console.log('this is stacl', stacks)
-    
-}
-    
-//    changePage()
+
+    }
+
+    //    changePage()
 
 
 
@@ -38,57 +38,53 @@ function Stacks(props) {
                 <img src={eugeneroads} />
             </div>
             <div className='stackTitle'>
-                {console.log('div', props.stack)}
+
                 <h1>Technology Stacks</h1>
             </div>
             <div className='stackList' >
                 <ul>
 
-                    <li><img src={html5} /> HTML5 </li>
-
-                    
-
-
+                    <li><img className="icon" src={html5} /> HTML5 </li>
                     <li>
-                        <img src={css} /> CSS  <span className="bottomPipe" > | </span>
+                        <img className="icon" src={css} /> CSS  <span className="bottomPipe" > | </span>
                         <span className="reactive" > Reactive Web Design </span><span className="bottomPipe" > | </span>
                         <span className="bootstrap" > Bootstrap </span>
-                        </li>
-                    <li>
-                        <img src={JavaScript} /> JavaScript<span className="bottomPipe" > | </span>
-                        <span className="es6" >ES6</span>
-                        </li>
-                    <li>
-                        <img src={express} /> Express <span className="bottomPipe" >|</span>
-                        <span className="ejs" > EJS </span><span className="bottomPipe" > | </span><span className="rest" >  CRUD/RESTful Routing </span>
-                        
                     </li>
                     <li>
-                        <img src={react} /> React <span className="bottomPipe" > | </span>
+                        <img className="icon" src={JavaScript} /> JavaScript<span className="bottomPipe" > | </span>
+                        <span className="es6" >ES6</span>
+                    </li>
+                    <li>
+                        <img className="icon" src={express} /> Express <span className="bottomPipe" >|</span>
+                        <span className="ejs" > EJS </span><span className="bottomPipe" > | </span><span className="rest" >  CRUD/RESTful Routing </span>
+
+                    </li>
+                    <li>
+                        <img className="icon" src={react} /> React <span className="bottomPipe" > | </span>
                         <span className="redux" > Redux </span> <span className="bottomPipe" >|</span>
                         <span className="socket" > Socket.io </span> <span className="bottomPipe" >|</span>
                         <span className="next" > Next.JS </span>
-                        
-                    </li>
-                    <li>
-                        <img src={python} /> Python <span className="bottomPipe" >|</span>
-                        <span className="flask" > Flask </span>
-                    </li>
-                    <li>
-                        <img src={sql} /> SQL <span className="bottomPipe" >|</span>
-                        <span className="postgre" > PostgreSQL </span><span className="bottomPipe" >|</span>
-                        <span className="socket" > Sequelize </span> 
 
                     </li>
                     <li>
-                        <img src={mongo} /> MongoDB <span className="bottomPipe" >|</span>
+                        <img className="icon" src={python} /> Python <span className="bottomPipe" >|</span>
+                        <span className="flask" > Flask </span>
+                    </li>
+                    <li>
+                        <img className="icon" src={sql} /> SQL <span className="bottomPipe" >|</span>
+                        <span className="postgre" > PostgreSQL </span><span className="bottomPipe" >|</span>
+                        <span className="socket" > Sequelize </span>
+
+                    </li>
+                    <li>
+                        <img className="icon" src={mongo} /> MongoDB <span className="bottomPipe" >|</span>
                         <span className="socket" > Mongoose </span> <span className="bottomPipe" > | </span><span className="atlas"> mongoDB Atlas</span>
                     </li>
                 </ul>
             </div>
 
 
-            <div className="tagStack">
+            <div className="fixed-bottom">
                 <h1> Let's Code </h1>
             </div>
 

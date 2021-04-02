@@ -1,6 +1,6 @@
 import construction from '../constuction.jpg'
 // import Stacks from './sections/Stacks'
-import VisibilitySensor from 'react-visibility-sensor'
+// import VisibilitySensor from 'react-visibility-sensor'
 import ContactMe from './sections/Contact'
 import Stacks from './sections/Stacks'
 // import ContactMe from './sections/Contact'
@@ -31,7 +31,7 @@ function Landing() {
                 <div className="skill3" >
                     <p>  Creative Design<span className="topPipe" > |</span></p>
                 </div>
-
+                <div className="leftSkills">
                 <div className="skill6" >
                     <p>Data Structures <span className="landingBottomPipe" > |</span></p>
                 </div>
@@ -41,11 +41,12 @@ function Landing() {
                 <div className="skill8" >
                 <p><span className="landingBottomPipe" > |</span> Innovative Solutions</p>
                 </div>
+                </div>
             </div>
 
 
 
-            <div className="tagStack">
+            <div className="fixed-bottom" >
                 <h1> Let's Code </h1>
             </div>
             <div className="construction">
