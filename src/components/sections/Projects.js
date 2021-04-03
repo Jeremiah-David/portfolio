@@ -91,8 +91,7 @@ function Projects() {
                 </div>
                 <div className="project2">
                 <div className="projectText" >
-                    <h4>Tic Tac Old Town Road</h4>
-                    <p>Uses Javascript and CSS to make a stylistic Tic Tac Toe game.</p>
+ 
                     </div>
                     <button onClick={projectTwoClick}>See it!</button>
                     <button onClick={projectTwoHub}>Check out the repo</button>

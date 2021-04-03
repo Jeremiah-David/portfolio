@@ -7,14 +7,22 @@ body {
 .Show {
   color: white;
 }
+.swiper-container {
+  width: 75%;
+  /* height: 75%; */
+  /*this gives the dimension of slider container*/
+  /*these values will make the container as big as the parent div*/
+  /* overflow: hidden; */
+  /* important parameter to not disrupt the container when slides increases in coverflow and other effect
+  }
+  /* .swiper-slide { */
+    /* align-items: center;
+    align-content: center;
+  width:100px;
+  height:100px; */
+  /* this one holds the dimension of each slides and can be changed according to the user wish */
+  } 
 
-.swiper-pagination {
-  bottom: 0;
-  padding-bottom: 1vh;
-  size: 200%;
-  width:10;
-  height:40px;
-}
 
 .waterPic {
   position: relative;
@@ -656,9 +664,13 @@ ul {
 }
 
 .swiper-container {
-  width: 75vw;
-  height: 40vh;
+  width: 60vw;
+  /* height: 40vh; */
+  padding: 1vw;
   align-content: center;
+  margin-top: 1vw;
+  margin-bottom: 1vw;
+  z-index: 4;
 }
 .aboutTitle {
   color: white;
