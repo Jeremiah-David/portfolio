@@ -13,6 +13,8 @@ import ContactMe from './components/sections/Contact';
 import Swipercomp from"./components/tools/Swipercomp"
 import Show from './components/sections/shows/shows'
 
+
+
 function App() {
 
 const [stack, setstack] = useState('hide')
@@ -20,19 +22,7 @@ const [stack, setstack] = useState('hide')
 
   return (
     <div className="App">
-      {/* <Landing />
 
-      <Stacks stack ={stack}/>
-     
-
-<VisibilitySensor
-    onChange={(isVisible) => {
-        console.log('seeMe2')
-        setstack('contact')
-        console.log('stackinview', stack)
-    }} >
-      <ContactMe stack ={stack}/>
-      </VisibilitySensor> */}
       <Navbar />
     <Switch>
       

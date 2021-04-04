@@ -34,12 +34,12 @@ function Stacks(props) {
     return (
 
         <div className="Stacks">
-            <div className="waterPic">
+            {/* <div className="waterPic">
                 <img src={eugeneroads} />
-            </div>
+            </div> */}
             <div className='stackTitle'>
 
-                <h1>Technology Stacks</h1>
+                <h3>Technology Stacks</h3>
             </div>
             <div className='stackList' >
                 <ul>
@@ -84,9 +84,9 @@ function Stacks(props) {
             </div>
 
 
-            <div className="fixed-bottom">
+            {/* <div className="fixed-bottom">
                 <h1> Let's Code </h1>
-            </div>
+            </div> */}
 
 
             {/* <div className="subStack"> */}

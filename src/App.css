@@ -9,18 +9,7 @@ body {
 }
 .swiper-container {
   width: 75%;
-  /* height: 75%; */
-  /*this gives the dimension of slider container*/
-  /*these values will make the container as big as the parent div*/
-  /* overflow: hidden; */
-  /* important parameter to not disrupt the container when slides increases in coverflow and other effect
-  }
-  /* .swiper-slide { */
-    /* align-items: center;
-    align-content: center;
-  width:100px;
-  height:100px; */
-  /* this one holds the dimension of each slides and can be changed according to the user wish */
+
   } 
 
 
@@ -270,7 +259,7 @@ body {
 
 .stackTitle {
   color: white;
-  font-size: large;
+  font-size: 1em;
   align-items: center;
   animation: fadeIn ease 3s;
   position: absolute;

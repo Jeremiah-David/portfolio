@@ -28,7 +28,7 @@ function Swipercomp() {
     const project4 = ['Kombat Assembly',
     'A super neat java html css game', 'See it!', projectDeploy4, 'Check out the repo', projectHub4, ]
     const project5 = ['Tic Tac Old Town Road',
-    'Uses Javascript and CSS to make a stylistic Tic Tac Toe game.', ' ', ' ']
+    'Uses Javascript and CSS to make a stylistic Tic Tac Toe game.', 'See it!', projectDeploy5, 'Check out the repo', projectHub5]
     const project6 = ['Rickipedia & Mortiverse',
     'Full Stack app using express, ejs, and SQL to store and compare fortnight users and stats',' ', ' ']
     const slidePics2 = [null, null, null, null, project4, project5, project6]
@@ -57,8 +57,8 @@ function Swipercomp() {
             >
                 <img src={slidePics[i]}
                     style={{
-                        width: '80%',
-                        height: '80%',
+                        width: '100%',
+                        height: '100%',
                         display: 'block',
                         marginLeft: 'auto',
                         marginRight: 'auto',
@@ -97,6 +97,15 @@ function Swipercomp() {
     function projectDeploy4(e) {
         e.preventDefault()
         window.open('https://kombatassembly.netlify.app/', '_blank');
+    }
+
+    function projectHub5(e) {
+        e.preventDefault()
+        window.open('https://github.com/Jeremiah-David/sei-tic-tac-toe', '_blank');
+    }
+    function projectDeploy5(e) {
+        e.preventDefault()
+        window.open('https://tictacoldtownroad.netlify.app', '_blank');
     }
 
 

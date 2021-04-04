@@ -1,17 +1,40 @@
 import construction from '../constuction.jpg'
-// import Stacks from './sections/Stacks'
-// import VisibilitySensor from 'react-visibility-sensor'
-import ContactMe from './sections/Contact'
+
 import Stacks from './sections/Stacks'
-// import ContactMe from './sections/Contact'
+import ContactMe from './sections/Contact'
+import Swipercomp from '../components/tools/Swipercomp'
+import About from './sections/About'
 
+import { Swiper, SwiperSlide } from 'swiper/react'
+import { useState} from 'react'
+import SwiperCore, { Navigation, Pagination, Thumbs, Controller, 
+    EffectCube, EffectFlip, } from 'swiper'
+import 'swiper/swiper-bundle.css'
+import '../App.css';
+import React from 'react'
+
+
+SwiperCore.use([Navigation, Pagination, Thumbs, Controller, EffectCube, EffectFlip, ])
 function Landing() {
-
    
+    const slides = [];
+    const slideViews = [<Stacks/> , <About />, <ContactMe /> ]
+    
 
+    for (let i = 0; i < 3; i += 1) {
+        let slideViewsShow = slideViews[i]
+        slides.push(
+            <SwiperSlide className="slider"
+            key={`slide-${i}`}
+            >
+                {slideViews[i]}
+                
+            </SwiperSlide>
+        )
+    }
     return (
         <div>
-          
+ 
             <div className='hero'>
                 <h1>Jeremiah David</h1>
             </div>
@@ -41,6 +64,14 @@ function Landing() {
                 <div className="skill8" >
                 <p><span className="landingBottomPipe" > |</span> Innovative Solutions</p>
                 </div>
+                <Swiper id="main" 
+            // controller={{control: controlledSwipper }}
+            effect="cube"
+            // thumbs={{ swiper: thumbsSwiper }}
+            navigation 
+            pagination>
+            {slides}
+            </Swiper>
                 </div>
             </div>
 
@@ -51,6 +82,7 @@ function Landing() {
             </div>
             <div className="construction">
                 <h4><img src={construction}/> Site Under Construction! Please visit from Desktop</h4>
+               
             </div>
 
             {/* <VisibilitySensor
