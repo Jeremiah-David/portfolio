@@ -725,6 +725,18 @@ ul {
 
 }
 
+.resume {
+  align-items: center;
+  position: relative;
+  margin: auto;
+  background-color: aqua;
+}
+.resumeDoc {
+  left: 10vw;
+  position: absolute;
+  margin: auto;
+  background-color: aqua;
+}
 /*    Projects   */
 
 .kombat {

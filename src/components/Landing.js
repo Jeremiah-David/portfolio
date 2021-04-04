@@ -4,6 +4,7 @@ import Stacks from './sections/Stacks'
 import ContactMe from './sections/Contact'
 import Swipercomp from '../components/tools/Swipercomp'
 import About from './sections/About'
+import MyResume from './sections/resume'
 
 import { Swiper, SwiperSlide } from 'swiper/react'
 import { useState} from 'react'
@@ -18,12 +19,12 @@ SwiperCore.use([Navigation, Pagination, Thumbs, Controller, EffectCube, EffectFl
 function Landing() {
    
     const slides = [];
-    const slideViews = [<Stacks/> , <About />, <ContactMe /> ]
+    const slideViews = [<Stacks/> , <About />, <ContactMe />, <MyResume />]
     const [thumbsSwiper, setThumbsSwiper] = useState(null)
     const thumbs = []
-    const thumbTitles = ['Stacks', 'Meet Jeremiah', 'Contact Me']
+    const thumbTitles = ['Stacks', 'Meet Jeremiah', 'Contact Me', "My Resume"]
 
-    for (let i = 0; i < 3; i += 1) {
+    for (let i = 0; i < 4; i += 1) {
         let slideViewsShow = slideViews[i]
         slides.push(
             <SwiperSlide className="slider"
@@ -35,7 +36,7 @@ function Landing() {
         )
     }
 
-    for (let i = 0; i < 5; i += 1) {
+    for (let i = 0; i < 4; i += 1) {
         thumbs.push(
             <SwiperSlide key={`thumb-${i}`}
                 tag="li"
@@ -86,7 +87,7 @@ function Landing() {
                 </div>
                 <Swiper id="thumbs" className="landingThumbs"
             // effect="flip"
-            spaceBetween={10}
+            spaceBetween={20}
             slidesPerView={3}
             direction='vertical'
             onSwiper={setThumbsSwiper}>
@@ -97,8 +98,11 @@ function Landing() {
             // controller={{control: controlledSwipper }}
             effect="cube"
             thumbs={{ swiper: thumbsSwiper }}
+            // direction='vertical'
+            loop={true}
             navigation 
             pagination>
+                
             {slides}
             </Swiper>
                 </div>

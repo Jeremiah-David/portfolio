@@ -116,13 +116,15 @@ function Swipercomp() {
             controller={{control: controlledSwipper }}
             effect="cube"
             thumbs={{ swiper: thumbsSwiper }}
+            //  direction='vertical'
             navigation 
-            pagination>
+            pagination
+            >
             {slides}
             </Swiper>
 
             <Swiper id="controller" 
-            
+            //  direction='vertical'
             onSwiper={setControlledSwipper}>
                 {slides2}
             </Swiper>
