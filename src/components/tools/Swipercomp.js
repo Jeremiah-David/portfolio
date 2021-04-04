@@ -58,7 +58,7 @@ function Swipercomp() {
                 <img src={slidePics[i]}
                     style={{
                         width: '100%',
-                        height: '100%',
+                        height: '%',
                         display: 'block',
                         marginLeft: 'auto',
                         marginRight: 'auto',
@@ -131,6 +131,7 @@ function Swipercomp() {
             // effect="flip"
             spaceBetween={1}
             slidesPerView={3}
+            direction='vertical'
             onSwiper={setThumbsSwiper}>
                 {thumbs}
             </Swiper>

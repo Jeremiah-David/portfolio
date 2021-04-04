@@ -661,69 +661,68 @@ ul {
   margin-bottom: 1vw;
   z-index: 4;
 }
+
 .aboutTitle {
-  color: white;
-  font-size: xx-large;
-  align-items: center;
-  animation: fadeIn ease 3s;
   position: relative;
-  -webkit-animation: fadeIn ease 3s;
-  max-width: 50%;
-  margin-left: 2vw;
+  top: 10vw;
+  color: white;
+  font-size: x-large;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.3);
+
 }
 
 .familyPic {
   position: relative;
   left: -600px;
   max-width: 50%;
+  /* width: 30vw; */
   -webkit-animation: slide 0.5s forwards;
   -webkit-animation-delay: 1s;
   animation: slide 0.5s forwards;
   animation-delay: 1s;
   margin-left: 1vw;
 }
-
+/* .familyImg {
+  width: 30vw;
+} */
 .weAre {
   color: white;
   font-size: x-large;
   position: absolute;
-  top: 20vh;
-  right: -250vw;
-  -webkit-animation: we 0.5s W;
-  -webkit-animation-delay: 1s;
-  animation: we 0.5s forwards;
-  animation-delay: 1s;
-  margin-right: 3vw;
+  text-align: justify;
+  top: 5vh;
+  right: 1vw;
+  border-radius: 5%;
+  padding: 1vw;
+
 }
 
 .dreamer {
   color: white;
-  float: right;
+  
   position: absolute;
+  text-align: justify;
   font-size: x-large;
-  right: -200vw;
-  top: 25vh;
-  -webkit-animation: we 0.5s W;
-  -webkit-animation-delay: 1.5s;
-  animation: we 0.5s forwards;
-  animation-delay: 1.5s;
-  margin-right: 3vw;
+  right: 1vw;
+  top: 1vh;
+  border-radius: 5%;
+  padding: 1vw;
 }
 
 .aboutText {
   color: white;
+  background-color: rgba(37, 37, 37, 0.5);
+  border-radius: 5%;
+  padding: 1vw;
   position: absolute;
   text-align: justify;
-  font-size: xx-large;
+  font-size: large;
   text-indent: 30pt;
-  right: -200vw;
-  top: 35vh;
-  -webkit-animation: we 0.5s W;
-  -webkit-animation-delay: 2s;
-  animation: we 0.5s forwards;
-  animation-delay: 2s;
-  max-width: 50vw;
-  margin-right: 3vw;
+  right: 1vw;
+  top: 10vh;
+  max-width: 30%;
+
 }
 
 /*    Projects   */
@@ -928,11 +927,7 @@ ul {
   }
 }
 
-.hidden {
-  position: absolute;
-  animation: unLoad forwards 2s;
-  -webkit-animation: unLoad forwards 2s;
-}
+
 
 @keyframes unLoad {
   0% {
@@ -950,6 +945,14 @@ ul {
 
 .fixed-bottom {
   color: white;
+}
+
+.landingThumbs {
+  position: absolute;
+  left: 1vw;
+  top: 40%;
+  color: white;
+  /* background-color: royalblue; */
 }
 
 /*  Phones!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */

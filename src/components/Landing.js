@@ -19,7 +19,9 @@ function Landing() {
    
     const slides = [];
     const slideViews = [<Stacks/> , <About />, <ContactMe /> ]
-    
+    const [thumbsSwiper, setThumbsSwiper] = useState(null)
+    const thumbs = []
+    const thumbTitles = ['Stacks', 'Meet Jeremiah', 'Contact Me']
 
     for (let i = 0; i < 3; i += 1) {
         let slideViewsShow = slideViews[i]
@@ -32,6 +34,24 @@ function Landing() {
             </SwiperSlide>
         )
     }
+
+    for (let i = 0; i < 5; i += 1) {
+        thumbs.push(
+            <SwiperSlide key={`thumb-${i}`}
+                tag="li"
+                style={{ listStyle: 'none' }}
+
+        >
+                <h4
+                style= {{
+                    // opacity: "100%",
+                }}>{thumbTitles[i]}</h4>
+                 
+            </SwiperSlide>
+        )
+    }
+
+    
     return (
         <div>
  
@@ -64,10 +84,19 @@ function Landing() {
                 <div className="skill8" >
                 <p><span className="landingBottomPipe" > |</span> Innovative Solutions</p>
                 </div>
+                <Swiper id="thumbs" className="landingThumbs"
+            // effect="flip"
+            spaceBetween={10}
+            slidesPerView={3}
+            direction='vertical'
+            onSwiper={setThumbsSwiper}>
+                {thumbs}
+            </Swiper>
+
                 <Swiper id="main" 
             // controller={{control: controlledSwipper }}
             effect="cube"
-            // thumbs={{ swiper: thumbsSwiper }}
+            thumbs={{ swiper: thumbsSwiper }}
             navigation 
             pagination>
             {slides}
