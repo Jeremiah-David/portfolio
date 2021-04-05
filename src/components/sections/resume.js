@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import { Document, Page, pdfjs } from 'react-pdf';
 // import Pdf from './Pdf'
-
+import resumePng from '../../resume.png'
 import resume from '../../JeremiahDavidResume.pdf'
   
   
@@ -20,12 +20,18 @@ const MyResume = ()=> {
   return (
     <>
     <div className="resume">
-      <Document className="resumeDoc"
+      {/* <Document className="resumeDoc"
         file={resume}
         onLoadSuccess={onDocumentLoadSuccess}
+       
         >
         <Page pageNumber={pageNumber} />
-      </Document>
+      </Document> */}
+    <a href={resume} download>
+        <img className="resumePng" src={resumePng} />
+      <h5 className="downloadResume">Click to download Resume PDF</h5>
+    </a>
+      
      </div>
     </>
   );

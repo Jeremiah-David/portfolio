@@ -6,6 +6,9 @@ import familyPic from '../../family.jpg'
 function About() {
     return (
         <div className='about'>
+            <div className="familyPic">
+                <img className="familyImg" src={familyPic} alt='Family' />
+            </div>
             <div className="weAre" >
                 <h4>We are Family</h4>
             </div>
@@ -13,9 +16,6 @@ function About() {
                 <h4>We are the Dreamers</h4>
             </div>
 
-            <div className="familyPic">
-                <img className="familyImg" src={familyPic} alt='Family' />
-            </div>
             <div className="aboutMe">
             
             <div className="aboutText" >

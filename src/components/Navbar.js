@@ -18,18 +18,18 @@ const Navbar = (props) => {
                             <li className="nav-item">
                                 <NavLink className="nav-link" exact to="/">HOME </NavLink>
                             </li>
-                            <li className="nav-item">
+                            {/* <li className="nav-item">
                                 <NavLink  className="nav-link" to="/stacks"> STACKS </NavLink>
-                            </li>
+                            </li> */}
                             <li className="nav-item">
                                 <NavLink  className="nav-link" to="/projects"> PROJECTS </NavLink>
                             </li>
-                            <li className="nav-item">
+                            {/* <li className="nav-item">
                                 <NavLink  className="nav-link" to="/about"> MEET JEREMIAH </NavLink>
                             </li>
                             <li className="nav-item">
                                 <NavLink  className="nav-link" to="/contact">CONTACT ME</NavLink>
-                            </li>
+                            </li> */}
                             {/* <li className="nav-item">
                                 <NavLink className="nav-link" to="/swiper"> Swiper </NavLink>
                             </li> */}

@@ -1,8 +1,7 @@
-import construction from '../constuction.jpg'
+
 
 import Stacks from './sections/Stacks'
 import ContactMe from './sections/Contact'
-import Swipercomp from '../components/tools/Swipercomp'
 import About from './sections/About'
 import MyResume from './sections/resume'
 
@@ -12,7 +11,7 @@ import SwiperCore, { Navigation, Pagination, Thumbs, Controller,
     EffectCube, EffectFlip, } from 'swiper'
 import 'swiper/swiper-bundle.css'
 import '../App.css';
-import React from 'react'
+
 
 
 SwiperCore.use([Navigation, Pagination, Thumbs, Controller, EffectCube, EffectFlip, ])
@@ -57,10 +56,10 @@ function Landing() {
         <div>
  
             <div className='hero'>
-                <h1>Jeremiah David</h1>
+                <h2>Jeremiah David</h2>
             </div>
             <div className='title2'>
-                <h1>A Full Stack Software Engineer</h1>
+                <h4>A Full Stack Software Engineer</h4>
             </div>
             <div className="landingTag" >
                 <div className="skill1">
@@ -97,6 +96,7 @@ function Landing() {
                 <Swiper id="main" 
             // controller={{control: controlledSwipper }}
             effect="cube"
+            className="landingSwiper"
             thumbs={{ swiper: thumbsSwiper }}
             // direction='vertical'
             loop={true}
@@ -113,10 +113,7 @@ function Landing() {
             <div className="fixed-bottom" >
                 <h1> Let's Code </h1>
             </div>
-            <div className="construction">
-                <h4><img src={construction}/> Site Under Construction! Please visit from Desktop</h4>
-               
-            </div>
+
 
             {/* <VisibilitySensor
     onChange={(isVisible) => {

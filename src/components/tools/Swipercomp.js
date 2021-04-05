@@ -133,7 +133,7 @@ function Swipercomp() {
             // effect="flip"
             spaceBetween={1}
             slidesPerView={3}
-            direction='vertical'
+            // direction='vertical'
             onSwiper={setThumbsSwiper}>
                 {thumbs}
             </Swiper>

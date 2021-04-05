@@ -39,7 +39,7 @@ function Stacks(props) {
             </div> */}
             <div className='stackTitle'>
 
-                <h3>Technology Stacks</h3>
+                <h3  className='stackTitleText'>Technology Stacks</h3>
             </div>
             <div className='stackList' >
                 <ul>
