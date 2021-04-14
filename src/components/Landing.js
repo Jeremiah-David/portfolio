@@ -74,7 +74,7 @@ function Landing() {
                 <div className="skill3" >
                     <p>  Creative Design<span className="topPipe" > |</span></p>
                 </div>
-                <div className="leftSkills">
+                <div >
                 <div className="skill6" >
                     <p>Data Structures <span className="landingBottomPipe" > |</span></p>
                 </div>

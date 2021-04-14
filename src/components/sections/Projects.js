@@ -99,7 +99,9 @@ function Projects() {
                 <div className="project3" >
                 <div className="projectText" >
                     <h4>Rickipedia & Mortiverse</h4>
-                    <p>Full Stack app using express, ejs, and SQL to store and compare fortnight users and stats</p>
+                    <p>Rickipedia & Mortiverse is a full-stack web application created with a MERN stack 
+                        (MongoDB, Express, React, Node). Casual users can browse character, episode, and location information from the tv show Rick & Morty. 
+                        Registered users can post and discuss theories about the show.</p>
                     </div>
                     <button onClick={projectThreeClick}>See it!</button>
                     <button onClick={projectThreeClientHub}>Check out the repo for the Front End</button>

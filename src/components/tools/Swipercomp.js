@@ -23,14 +23,14 @@ function Swipercomp() {
     const slides = [];
     const slides2 = [];
     const thumbs = []
-    const slidePics = [project1, project2, project3]
+    const slidePics = ['https://i.imgur.com/huh2aol.png?1?', project2, 'https://i.imgur.com/ZbIQNsh.png?']
     const thumbTitles = ['Kombat Assembly', 'Tic Tac Old Town Road', 'Rickipedia & Mortiverse']
     const project4 = ['Kombat Assembly',
-    'A super neat java html css game', 'See it!', projectDeploy4, 'Check out the repo', projectHub4, ]
+    'Kombat Assembly is a browser game written in Javascript, HTML, & CSS. A turned based fighting game where you, as a Cat turned human, fight the temple Caretaker. Two player mode and secret link to Orignal Doom included', 'See it!', projectDeploy4, 'Check out the repo', projectHub4, ]
     const project5 = ['Tic Tac Old Town Road',
     'Uses Javascript and CSS to make a stylistic Tic Tac Toe game.', 'See it!', projectDeploy5, 'Check out the repo', projectHub5]
     const project6 = ['Rickipedia & Mortiverse',
-    'Full Stack app using express, ejs, and SQL to store and compare fortnight users and stats',' ', ' ']
+    'Rickipedia & Mortiverse is a full-stack web application created with a MERN stack (MongoDB, Express, React, Node). Casual users can browse character, episode, and location information from the tv show Rick & Morty. Registered users can post and discuss theories about the show.',' ', ' ']
     const slidePics2 = [null, null, null, null, project4, project5, project6]
     for (let i = 0; i < 5; i += 1) {
         thumbs.push(

@@ -851,6 +851,8 @@ ul {
   }
 }
 
+
+
 .contact {
   text-align: center;
   font-size: xx-large;
@@ -1022,32 +1024,32 @@ ul {
 
   .skill1 {
     position: relative;
-    top: 1vh;
+    top: 0vh;
     /* right: 0vw; */
     font-size: x-small;
   }
   .skill2 {
     font-size: x-small;
     position: relative;
-    top: 1vh;
+    top: 0vh;
     /* right: 0vw; */
   }
   .skill3 {
     font-size: x-small;
     position: relative;
-    top: 1vh;
+    top: 0vh;
     /* right: 0vw; */
   }
   .skill4 {
     font-size: x-small;
     position: relative;
-    top: 1vh;
+    top: 0vh;
     /* right: 0vw; */
   }
   .skill5 {
     font-size: x-small;
     position: relative;
-    top: 1vh;
+    top: 2vh;
   }
   .skill6 {
     font-size: x-small;
@@ -1057,7 +1059,7 @@ ul {
   .skill7 {
     font-size: x-small;
     position: relative;
-    top: 1vh;
+    top:  1vh;
   }
   .skill8 {
     font-size: x-small;
@@ -1301,7 +1303,5 @@ ul {
   .familyImg {
     width: 250%;
   }
-  h4 {
-    font-size: .8em ;
-  }
-}
+
+} 
