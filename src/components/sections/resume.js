@@ -20,14 +20,8 @@ const MyResume = ()=> {
   return (
     <>
     <div className="resume">
-      {/* <Document className="resumeDoc"
-        file={resume}
-        onLoadSuccess={onDocumentLoadSuccess}
-       
-        >
-        <Page pageNumber={pageNumber} />
-      </Document> */}
-    <a href={resume} download>
+
+    <a href={resume} download >
         <img className="resumePng" src={resumePng} />
       <h5 className="downloadResume">Click to download Resume PDF</h5>
     </a>

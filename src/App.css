@@ -1,5 +1,7 @@
 body {
   background: rgb(37, 37, 37);
+  overflow: hidden; 
+  
 }
 
 .Show {
@@ -830,6 +832,11 @@ ul {
   background-color: rgba(0, 0, 0, 0.3);
   color: white;
 }
+
+.projectDescriptions {
+  /* width: 100% */
+}
+
 
 @keyframes bottom {
   0% {
