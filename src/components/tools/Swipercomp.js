@@ -130,12 +130,7 @@ function Swipercomp() {
                 controller={{ control: controlledSwipper }}
                 effect="cube"
                 
-                cubeEffect={{
-                    shadow: true,
-                    slideShadows: true,
-                    shadowOffset: 20,
-                    shadowScale: 0.94,
-                  }}
+
                 thumbs={{ swiper: thumbsSwiper }}
                 //  direction='vertical'
                 navigation

@@ -1,9 +1,20 @@
 body {
   background: rgb(37, 37, 37);
-  overflow: hidden; 
+
   
 }
 
+.landing {
+  overflow: hidden; 
+}
+
+
+.navbar {
+  font-size: 1.5em;
+}
+.navbar-brand {
+  font-size : 1em;
+} 
 .Show {
   color: white;
 }
@@ -40,12 +51,9 @@ body {
 }
 
 .hero {
-  /* height: 90 vh; */
   position: relative;
-  /* top: 100px; */
-  /* max-width: 50vw; */
   color: white;
-  font-size: 50px;
+  font-size: 200px;
   align-items: center;
   animation: fadeIn ease 4s;
   -webkit-animation: fadeIn ease 4s;

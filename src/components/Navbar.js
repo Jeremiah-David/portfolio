@@ -16,23 +16,13 @@ const Navbar = (props) => {
                 <div className="collapse navbar-collapse" id="navbarsExample07">
                         <ul className="navbar-nav mr-auto">
                             <li className="nav-item">
-                                <NavLink className="nav-link" exact to="/">HOME </NavLink>
+                                <NavLink className="nav-link" exact to="/">Home </NavLink>
                             </li>
-                            {/* <li className="nav-item">
-                                <NavLink  className="nav-link" to="/stacks"> STACKS </NavLink>
-                            </li> */}
+
                             <li className="nav-item">
-                                <NavLink  className="nav-link" to="/projects"> PROJECTS </NavLink>
+                                <NavLink  className="nav-link" to="/projects"> Projects </NavLink>
                             </li>
-                            {/* <li className="nav-item">
-                                <NavLink  className="nav-link" to="/about"> MEET JEREMIAH </NavLink>
-                            </li>
-                            <li className="nav-item">
-                                <NavLink  className="nav-link" to="/contact">CONTACT ME</NavLink>
-                            </li> */}
-                            {/* <li className="nav-item">
-                                <NavLink className="nav-link" to="/swiper"> Swiper </NavLink>
-                            </li> */}
+
                         </ul>
                    
                 </div>
