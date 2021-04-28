@@ -290,6 +290,28 @@ body {
 
 
 
+.bottomPipe {
+  background-image: linear-gradient(
+    to left,
+    violet,
+    indigo,
+    blue,
+    green,
+    yellow,
+    orange,
+    red
+  );
+  -webkit-background-clip: text;
+  color: transparent;
+  position: relative;
+  -webkit-animation: pipeStackBottom 1s ease;
+  -webkit-animation-delay: 4s;
+  animation: pipeStackBottom 1s ease;
+  animation-delay: 4s;
+  opacity: 0;
+  animation-fill-mode: forwards;
+}
+
 @keyframes bottomStack {
   0% {
     right: -200vw;
@@ -897,6 +919,7 @@ ul {
     animation-delay: 1s;
   }
   ul {
+    list-item-style: none;
     padding-left: 0px;
   }
 
