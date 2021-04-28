@@ -1,7 +1,4 @@
-
 import familyPic from '../../family.jpg'
-
-
 
 function About() {
     return (
@@ -17,10 +14,10 @@ function About() {
             </div>
 
             <div className="aboutMe">
-            
-            <div className="aboutText" >
-                <p> I'm a Front-End Developer located in Eugene, OR. I have serious passion for React, Javascript, and creating new ways to experience the web. I am willing to relocate, and love to work remote. Let's code something amazing. </p>
-            </div>
+
+                <div className="aboutText" >
+                    <p> I'm a Front-End Developer located in Eugene, OR. I have serious passion for React, Javascript, and creating new ways to experience the web. I am willing to relocate, and love to work remote. Let's code something amazing. </p>
+                </div>
             </div>
 
 

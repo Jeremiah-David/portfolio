@@ -8,14 +8,6 @@ import 'swiper/swiper-bundle.css'
 import '../../App.css';
 import React from 'react'
 
-import project1 from '../../kombat.png'
-import project2 from '../../tictac.png'
-import project3 from '../../rick.png'
-import project6 from '../../rick.png'
-import project5 from '../../tictac.png'
-import project4 from '../../kombat.png'
-import eugenewater from '../../eugenewater.jpg'
-
 
 SwiperCore.use([Navigation, Pagination, Thumbs, Controller, EffectCube, EffectFlip,])
 
@@ -34,8 +26,9 @@ function Swipercomp() {
     const project5 = ['Tic Tac Old Town Road',
         'Uses Javascript and CSS to make a stylistic Tic Tac Toe game.', 'See it!', projectDeploy5, 'Check out the repo', projectHub5]
     const project6 = ['Rickipedia & Mortiverse',
-        'Rickipedia & Mortiverse is a full-stack web application created with a MERN stack (MongoDB, Express, React, Node). Casual users can browse character, episode, and location information from the tv show Rick & Morty. Registered users can post and discuss theories about the show.', 'See it!',projectDeploy6, 'Check out the repo', projectHub6]
+        'Rickipedia & Mortiverse is a full-stack web application created with a MERN stack (MongoDB, Express, React, Node). Casual users can browse character, episode, and location information from the tv show Rick & Morty. Registered users can post and discuss theories about the show.', 'See it!', projectDeploy6, 'Check out the repo', projectHub6]
     const slidePics2 = [null, null, null, null, project4, project5, project6, project7]
+    
     for (let i = 0; i < 5; i += 1) {
         thumbs.push(
             <SwiperSlide key={`thumb-${i}`}
@@ -45,7 +38,6 @@ function Swipercomp() {
             >
                 <h4
                     style={{
-                        // opacity: "100%",
                     }}>{thumbTitles[i]}</h4>
 
             </SwiperSlide>
@@ -62,14 +54,12 @@ function Swipercomp() {
                 <img src={slidePics[i]}
                     style={{
                         width: '100%',
-                        height: '%',
+                        height: '100%',
                         display: 'block',
                         marginLeft: 'auto',
                         marginRight: 'auto',
-
                         alignSelf: 'center'
                     }}
-
                     alt={`Slide${i}`}
                 />
             </SwiperSlide>
@@ -129,10 +119,7 @@ function Swipercomp() {
             <Swiper id="main"
                 controller={{ control: controlledSwipper }}
                 effect="cube"
-                
-
                 thumbs={{ swiper: thumbsSwiper }}
-                //  direction='vertical'
                 navigation
                 pagination
             >
@@ -140,20 +127,17 @@ function Swipercomp() {
             </Swiper>
 
             <Swiper id="controller"
-            className="projectDescriptions"
-
-            //  direction='vertical'
-            effect="cube"
-            onSwiper={setControlledSwipper}>
+                className="projectDescriptions"
+                effect="cube"
+                onSwiper={setControlledSwipper}>
                 {slides2}
             </Swiper>
 
             <Swiper id="thumbs" className="landingThumbs"
-            // effect="flip"
-            spaceBetween={20}
-            slidesPerView={5}
-            direction='vertical'
-            onSwiper={setThumbsSwiper}>
+                spaceBetween={20}
+                slidesPerView={5}
+                direction='vertical'
+                onSwiper={setThumbsSwiper}>
                 {thumbs}
             </Swiper>
 

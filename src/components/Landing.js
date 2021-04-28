@@ -21,12 +21,13 @@ function Landing() {
 
     const slides = [];
     const slideViews = [<Stacks />, <About />, <ContactMe />, <MyResume />]
+    // eslint-disable-next-line no-unused-vars
     const [thumbsSwiper, setThumbsSwiper] = useState(null)
     const thumbs = []
     const thumbTitles = ['Stacks', 'Meet Jeremiah', 'Contact Me', "My Resume"]
 
     for (let i = 0; i < 4; i += 1) {
-        let slideViewsShow = slideViews[i]
+
         slides.push(
             <SwiperSlide className="slider"
                 key={`slide-${i}`}
@@ -35,6 +36,7 @@ function Landing() {
             </SwiperSlide>
         )
     }
+
     for (let i = 0; i < 4; i += 1) {
         thumbs.push(
             <SwiperSlide key={`thumb-${i}`}
@@ -43,7 +45,7 @@ function Landing() {
             >
                 <h4
                     style={{
-                        // opacity: "100%",
+               
                     }}>{thumbTitles[i]}</h4>
             </SwiperSlide>
         )
@@ -59,11 +61,9 @@ function Landing() {
             <div className="landingTag" >
                 <div >
                     <Swiper id="main"
-                        // controller={{control: controlledSwipper }}
                         effect="cube"
                         className="landingSwiper"
                         thumbs={{ swiper: thumbsSwiper }}
-                        // direction='vertical'
                         loop={true}
                         navigation
                         pagination>
@@ -76,7 +76,6 @@ function Landing() {
                 <h1> Let's Code </h1>
             </div>
         </div>
-
     )
 }
 

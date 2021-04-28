@@ -1,11 +1,6 @@
 import {  Route, Switch  } from 'react-router-dom';
-import { BrowserRouter as Router } from 'react-router-dom'
-import VisibilitySensor from 'react-visibility-sensor'
-import { useState } from 'react'
-
 import Stacks from './components/sections/Stacks'
 import Landing from './components/Landing'
-import Projects from './components/sections/Projects'
 import About from './components/sections/About'
 import './App.css';
 import Navbar from './components/Navbar';
@@ -16,9 +11,6 @@ import Show from './components/sections/shows/shows'
 
 
 function App() {
-
-const [stack, setstack] = useState('hide')
-
 
   return (
     <div className="App">
@@ -33,7 +25,6 @@ const [stack, setstack] = useState('hide')
       <Route path="/contact" component= { ContactMe} />
       <Route path="/show" component= { Show } />
       </Switch>
-      {/* <myFooter /> */}
     </div>
   );
 }
